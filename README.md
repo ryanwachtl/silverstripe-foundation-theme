@@ -6,21 +6,21 @@ Compass starter files for a SilverStripe theme using Zurb Foundation.
 Installing
 =================================
 
-1. Install the zurb-foundation gem
+(1) Install the zurb-foundation gem
 
 `[sudo] gem install zurb-foundation`
 
-2. Clone this repo to your themes directory
+(2) Clone this repo to your themes directory
 
 `cd my-silverstripe-project/themes/`
 
 `git clone https://github.com/ryanwachtl/silverstripe-zurb-foundation-scss.git foundation`
 
-3. Install compass project
+(3) Install compass project
 
 `gem install foundation`
 
-4. Code Happy!
+(4) Code Happy!
 
 About Foundation
 =================================
