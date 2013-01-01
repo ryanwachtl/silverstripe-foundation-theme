@@ -1,4 +1,4 @@
-silverstripe-zurb-foundation-scss
+SilverStripe Zurb Foundation Theme
 =================================
 
 Compass starter files for a SilverStripe theme using Zurb Foundation.
@@ -27,9 +27,9 @@ About Foundation
 
 Foundation is the most advanced responsive front-end framework in the world. With Foundation you can quickly prototype and build sites or apps that work on any kind of device, with tons of included layout constructs (like a full responsive grid), elements and best practices.
 
-Homepage:      http://foundation.zurb.com
-Documentation: http://foundation.zurb.com/docs
-Download:      http://foundation.zurb.com/download.php
+- Homepage:      http://foundation.zurb.com
+- Documentation: http://foundation.zurb.com/docs
+- Download:      http://foundation.zurb.com/download.php
 
 =================================
 
