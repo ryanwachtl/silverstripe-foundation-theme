@@ -16,11 +16,9 @@ Installing
 
 `git clone https://github.com/ryanwachtl/silverstripe-zurb-foundation-scss.git foundation`
 
-(3) Install compass project
+(optional) Force update Foundation to latest
 
-`gem install foundation`
-
-(4) Code Happy!
+`compass install -r zurb-foundation foundation/upgrade --force`
 
 About Foundation
 =================================
