@@ -1,16 +1,12 @@
 SilverStripe Zurb Foundation Theme
 =================================
 
-Compass starter files for a SilverStripe theme using Zurb Foundation.
+A SilverStripe theme based on Foundation.
 
 Installing
 =================================
 
-Clone to your themes directory
-
 `git clone https://github.com/ryanwachtl/silverstripe-zurb-foundation-scss.git foundation`
-
-(optional) Force update Foundation to latest
 
 `[sudo] gem install zurb-foundation`
 
