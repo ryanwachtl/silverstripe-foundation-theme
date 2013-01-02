@@ -10,7 +10,7 @@ Installing
 
 `[sudo] gem install zurb-foundation`
 
-`compass install -r zurb-foundation foundation/upgrade --force`
+(optional) `compass install -r zurb-foundation foundation/upgrade --force`
 
 About Foundation
 =================================
