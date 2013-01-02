@@ -13,5 +13,7 @@
 @import "foundation/mixins/all";
 
 .typography {
-    @import "foundation/common/base";
+    @import "foundation/common/ratios";
+    @import "foundation/common/globals";
+    @import "foundation/common/typography";
 }

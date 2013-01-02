@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .typography { /* Requires: normalize.css */ /* Global Reset & Standards ---------------------- */ /* Links ---------------------- */ /* Misc ---------------------- */ /* Reset for strange margins by default on <figure> elements */ /* Base Type Styles Using Modular Scale ---------------------- */ /* Lists ---------------------- */ /* Blockquotes ---------------------- */ /* Print styles.  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
-*/ /* Requires globals.css */ /* Standard Forms ---------------------- */ /* Fieldsets */ /* Errors */ /* Custom Forms ---------------------- */ /* Correct FF custom dropdown height */ @-moz-document url-prefix() { form.custom div.custom.dropdown a.selector { height: 30px; } }
- }
+*/ }
 .typography *, .typography *:before, .typography *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .typography html { font-size: 62.5%; }
 .typography body { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
@@ -79,60 +78,3 @@
   .typography .print-only { display: block !important; }
   .typography .hide-for-print { display: none !important; }
   .typography .show-for-print { display: inherit !important; } }
-.typography form { margin: 0 0 19.41641px; }
-.typography .row form .row { margin: 0 -6px; }
-.typography .row form .row .column, .typography .row form .row .columns { padding: 0 6px; }
-.typography .row form .row.collapse { margin: 0; }
-.typography .row form .row.collapse .column, .typography .row form .row.collapse .columns { padding: 0; }
-.typography label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; }
-.typography label.right { float: none; text-align: right; }
-.typography label.inline { line-height: 32px; margin: 0 0 12px 0; }
-.typography .prefix, .typography .postfix { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; height: 32px; line-height: 31px; }
-.typography a.button.prefix, .typography a.button.postfix { padding-left: 0; padding-right: 0; text-align: center; }
-.typography span.prefix, .typography span.postfix { background: #f2f2f2; border: 1px solid #cccccc; }
-.typography .prefix { left: 2px; -moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-bottomleft: 2px; -webkit-border-bottom-left-radius: 2px; border-bottom-left-radius: 2px; overflow: hidden; }
-.typography .postfix { right: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; -moz-border-radius-bottomright: 2px; -webkit-border-bottom-right-radius: 2px; border-bottom-right-radius: 2px; }
-.typography input[type="text"], .typography input[type="password"], .typography input[type="date"], .typography input[type="datetime"], .typography input[type="email"], .typography input[type="number"], .typography input[type="search"], .typography input[type="tel"], .typography input[type="time"], .typography input[type="url"], .typography textarea { background-color: white; font-family: inherit; border: 1px solid #cccccc; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.75); display: block; font-size: 14px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
-.typography input[type="text"].oversize, .typography input[type="password"].oversize, .typography input[type="date"].oversize, .typography input[type="datetime"].oversize, .typography input[type="email"].oversize, .typography input[type="number"].oversize, .typography input[type="search"].oversize, .typography input[type="tel"].oversize, .typography input[type="time"].oversize, .typography input[type="url"].oversize, .typography textarea.oversize { font-size: 17px; padding: 4px 6px; }
-.typography input[type="text"]:focus, .typography input[type="password"]:focus, .typography input[type="date"]:focus, .typography input[type="datetime"]:focus, .typography input[type="email"]:focus, .typography input[type="number"]:focus, .typography input[type="search"]:focus, .typography input[type="tel"]:focus, .typography input[type="time"]:focus, .typography input[type="url"]:focus, .typography textarea:focus { background: #fafafa; border-color: #b3b3b3; }
-.typography input[type="text"][disabled], .typography input[type="password"][disabled], .typography input[type="date"][disabled], .typography input[type="datetime"][disabled], .typography input[type="email"][disabled], .typography input[type="number"][disabled], .typography input[type="search"][disabled], .typography input[type="tel"][disabled], .typography input[type="time"][disabled], .typography input[type="url"][disabled], .typography textarea[disabled] { background-color: #ddd; }
-.typography textarea { height: auto; }
-.typography select { width: 100%; }
-.typography fieldset { border: solid 1px #dddddd; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; padding: 12px 12px 0; margin: 18px 0; }
-.typography fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 0; margin-left: -3px; }
-.typography .error input, .typography input.error, .typography .error textarea, .typography textarea.error { border-color: #c60f13; background-color: rgba(198, 15, 19, 0.1); }
-.typography .error label, .typography label.error { color: #c60f13; }
-.typography .error small, .typography small.error { display: block; padding: 6px 4px; margin-top: -13px; margin-bottom: 12px; background: #c60f13; color: #fff; font-size: 12px; font-weight: bold; -moz-border-radius-bottomleft: 2px; -webkit-border-bottom-left-radius: 2px; border-bottom-left-radius: 2px; -moz-border-radius-bottomright: 2px; -webkit-border-bottom-right-radius: 2px; border-bottom-right-radius: 2px; }
-.typography .error textarea:focus, .typography textarea.error:focus { background: #fafafa; border-color: #b3b3b3; }
-.typography form.custom { /* Custom input, disabled */ }
-.typography form.custom span.custom { display: inline-block; width: 16px; height: 16px; position: relative; top: 2px; border: solid 1px #cccccc; background: white; }
-.typography form.custom span.custom.radio { -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; }
-.typography form.custom span.custom.checkbox:before { content: ""; display: block; line-height: 0.8; height: 14px; width: 14px; text-align: center; position: absolute; top: 0; left: 0; font-size: 14px; color: #fff; }
-.typography form.custom span.custom.radio.checked:before { content: ""; display: block; width: 8px; height: 8px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; background: #222222; position: relative; top: 3px; left: 3px; }
-.typography form.custom span.custom.checkbox.checked:before { content: "\00d7"; color: #222222; }
-.typography form.custom div.custom.dropdown { display: block; position: relative; width: auto; height: 28px; margin-bottom: 9px; margin-top: 2px; }
-.typography form.custom div.custom.dropdown ul { overflow-y: auto; max-height: 200px; }
-.typography form.custom div.custom.dropdown a.current { display: block; width: auto; line-height: 26px; min-height: 28px; padding: 0; padding-left: 6px; padding-right: 38px; border: solid 1px #dddddd; color: #141414; background-color: white; white-space: nowrap; }
-.typography form.custom div.custom.dropdown a.selector { position: absolute; width: 27px; height: 28px; display: block; right: 0; top: 0; border: solid 1px #dddddd; }
-.typography form.custom div.custom.dropdown a.selector:after { content: ""; display: block; content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: #aaaaaa transparent transparent transparent; position: absolute; left: 50%; top: 50%; margin-top: -2px; margin-left: -5px; }
-.typography form.custom div.custom.dropdown:hover a.selector:after, .typography form.custom div.custom.dropdown.open a.selector:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: #222222 transparent transparent transparent; }
-.typography form.custom div.custom.dropdown.open ul { display: block; z-index: 10; }
-.typography form.custom div.custom.dropdown.small { width: 134px !important; }
-.typography form.custom div.custom.dropdown.medium { width: 254px !important; }
-.typography form.custom div.custom.dropdown.large { width: 434px !important; }
-.typography form.custom div.custom.dropdown.expand { width: 100% !important; }
-.typography form.custom div.custom.dropdown.open.small ul { width: 134px !important; }
-.typography form.custom div.custom.dropdown.open.medium ul { width: 254px !important; }
-.typography form.custom div.custom.dropdown.open.large ul { width: 434px !important; }
-.typography form.custom div.custom.dropdown.open.expand ul { width: 100% !important; }
-.typography form.custom div.custom.dropdown ul { position: absolute; width: auto; display: none; margin: 0; left: 0; top: 27px; margin: 0; padding: 0; background: white; background: rgba(255, 255, 255, 0.95); border: solid 1px #cccccc; }
-.typography form.custom div.custom.dropdown ul li { color: #555555; font-size: 13px; cursor: pointer; padding: 3px; padding-left: 6px; padding-right: 38px; min-height: 18px; line-height: 18px; margin: 0; white-space: nowrap; list-style: none; }
-.typography form.custom div.custom.dropdown ul li.selected { background: #cdebf5; color: black; }
-.typography form.custom div.custom.dropdown ul li.selected:after { content: "\2013"; position: absolute; right: 10px; }
-.typography form.custom div.custom.dropdown ul li:hover { background-color: #cdebf5; color: black; }
-.typography form.custom div.custom.dropdown ul li:hover:after { content: "\2013"; position: absolute; right: 10px; color: #a3dbec; }
-.typography form.custom div.custom.dropdown ul li.selected:hover { background: #cdebf5; cursor: default; color: black; }
-.typography form.custom div.custom.dropdown ul li.selected:hover:after { color: black; }
-.typography form.custom div.custom.dropdown ul.show { display: block; }
-.typography form.custom .custom.disabled { background-color: #dddddd; }
-.typography .lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px; }
