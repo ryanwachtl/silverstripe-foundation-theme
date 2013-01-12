@@ -6,22 +6,31 @@ A SilverStripe theme based on Foundation.
 Installing
 =================================
 
-`git clone https://github.com/ryanwachtl/silverstripe-zurb-foundation-scss.git foundation`
+clone into your SilverStripe `themes` directory
+
+`git clone https://github.com/ryanwachtl/silverstripe-foundation.git foundation`
+
+if you want to edit the scss files you'll need to install the `compass` and `zurb-foundation` gems
+
+`[sudo] gem install compass`
 
 `[sudo] gem install zurb-foundation`
 
-(optional) `compass install -r zurb-foundation foundation/upgrade --force`
+Related Works
+=================================
+
+[SilverStripe Zurb Foundation Blog Theme](https://github.com/ryanwachtl/silverstripe-foundation-blog)
+
+[SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
 
 About Foundation
 =================================
 
 Foundation is the most advanced responsive front-end framework in the world. With Foundation you can quickly prototype and build sites or apps that work on any kind of device, with tons of included layout constructs (like a full responsive grid), elements and best practices.
 
-- Homepage:      http://foundation.zurb.com
-- Documentation: http://foundation.zurb.com/docs
-- Download:      http://foundation.zurb.com/download.php
-
-=================================
+- [Homepage](http://foundation.zurb.com)
+- [Documentation](http://foundation.zurb.com/docs)
+- [Download](http://foundation.zurb.com/download.php)
 
 MIT Open Source License
 =================================
