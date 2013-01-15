@@ -9,6 +9,7 @@
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	$MetaTags(false)
 	<link rel="stylesheet" href="{$ThemeDir}/css/app.css">
+	<link rel="stylesheet" href="{$ThemeDir}/css/foundation-overrides.css">
 	<script src="{$ThemeDir}/javascript/foundation/modernizr.foundation.js"></script>
 </head>
 
