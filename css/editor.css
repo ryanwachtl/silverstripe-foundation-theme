@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .typography { /* Requires: normalize.css */ /* Global Reset & Standards ---------------------- */ /* Links ---------------------- */ /* Misc ---------------------- */ /* Reset for strange margins by default on <figure> elements */ /* Base Type Styles Using Modular Scale ---------------------- */ /* Lists ---------------------- */ /* Blockquotes ---------------------- */ /* Print styles.  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */ }
 .typography *, .typography *:before, .typography *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -34,7 +33,7 @@
 .typography h4 { font-size: 23px; }
 .typography h5 { font-size: 17px; }
 .typography h6 { font-size: 14px; }
-.typography hr { border: solid #dddddd; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
+.typography hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
 .typography .subheader { line-height: 1.3; color: #6f6f6f; font-weight: 300; margin-bottom: 17px; }
 .typography em, .typography i { font-style: italic; line-height: inherit; }
 .typography strong, .typography b { font-weight: bold; line-height: inherit; }
@@ -54,11 +53,11 @@
 .typography ol { margin-left: 20px; }
 .typography ol li ul, .typography ol li ol { margin-left: 20px; margin-bottom: 0; }
 .typography blockquote, .typography blockquote p { line-height: 1.5; color: #6f6f6f; }
-.typography blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #dddddd; }
+.typography blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 .typography blockquote cite { display: block; font-size: 13px; color: #555555; }
 .typography blockquote cite:before { content: "\2014 \0020"; }
 .typography blockquote cite a, .typography blockquote cite a:visited { color: #555555; }
-.typography abbr, .typography acronym { text-transform: uppercase; font-size: 90%; color: #222222; border-bottom: 1px solid #dddddd; cursor: help; }
+.typography abbr, .typography acronym { text-transform: uppercase; font-size: 90%; color: #222222; border-bottom: 1px solid #ddd; cursor: help; }
 .typography abbr { text-transform: none; }
 .typography .print-only { display: none !important; }
 @media print { .typography { /* Black prints faster: h5bp.com/s */ /* Don't show links for images, or javascript/internal links */ /* h5bp.com/t */ @page { margin: 0.5cm; }
@@ -68,7 +67,7 @@
   .typography a[href]:after { content: " (" attr(href) ")"; }
   .typography abbr[title]:after { content: " (" attr(title) ")"; }
   .typography .ir a:after, .typography a[href^="javascript:"]:after, .typography a[href^="#"]:after { content: ""; }
-  .typography pre, .typography blockquote { border: 1px solid #999999; page-break-inside: avoid; }
+  .typography pre, .typography blockquote { border: 1px solid #999; page-break-inside: avoid; }
   .typography thead { display: table-header-group; }
   .typography tr, .typography img { page-break-inside: avoid; }
   .typography img { max-width: 100% !important; }
