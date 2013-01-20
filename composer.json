@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/foundation",
+	"name": "rywa/silverstripe-themes-foundation",
 	"type": "silverstripe-module",
 	"description": "SilverStripe prototyping theme based on Zurb Foundation",
 	"keywords": ["silverstripe", "foundation", "zurbfoundation", "prototyping", "theme"],
