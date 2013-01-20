@@ -16,7 +16,7 @@
 		"silverstripe/framework": "3.*",
 		"silverstripe/cms": "3.*"
 	},
-	"target-dir": "themes/"
+	"target-dir": "themes/",
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
 	}
