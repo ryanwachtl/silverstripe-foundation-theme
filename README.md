@@ -16,6 +16,11 @@ if you want to edit the scss files you'll need to install the `compass` and `zur
 
 `[sudo] gem install zurb-foundation`
 
+Composer
+=================================
+
+`composer require rywa/foundation dev-master`
+
 Related Works
 =================================
 
