@@ -14,35 +14,6 @@
 </head>
 
 <body>
-
-	<div class="row">
-		<div class="twelve columns">
-			<nav class="top-bar contain-to-grid">
-				<ul>
-					<li class="name"><h1><a href="home/">$SiteConfig.Title</a></h1></li>
-					<li class="toggle-topbar"><a href="#"></a></li>
-				</ul>
-				<section>
-					<ul class="left">
-						<% if $CurrentMember %>
-						<li><a href="Security/Logout">Logout</a></li>
-						<% else %>
-						<li><a href="Security/Login">Login</a></li>
-						<% end_if %>
-					</ul>
-					<% if $SearchForm %>
-					<ul class="right">
-						<li class="search">
-							<form id="SearchForm_SearchForm" action="/home/SearchForm" method="get" enctype="application/x-www-form-urlencoded">
-								<input type="search" name="Search" placeholder="Search" id="SearchForm_SearchForm_Search">
-							</form>
-						</li>
-					</ul>
-					<% end_if %>
-				</section>
-			</nav>
-		</div>
-	</div>
 	
 	<% include Navigation %>
 	
@@ -129,11 +100,13 @@
 	</div>
 	<% end_if %>
 
+	<% if InSection(home) %><% else %>
 	<div class="row">
 		<div class="twelve columns">
 			<% include Breadcrumbs %>
 		</div>
 	</div>
+	<% end_if %>
 	
 	<footer class="row">
 		<div class="twelve columns">
@@ -154,26 +127,36 @@
 		</div>
 	</footer>
 	
-	<%-- move to mysite/code/page.php  --%>
+	<!-- Included JS Files (Uncompressed) -->
 	<script src="{$ThemeDir}/javascript/foundation/jquery.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.mediaQueryToggle.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.forms.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.event.move.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.event.swipe.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.reveal.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.orbit.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.forms.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.placeholder.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.tooltips.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.alerts.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.buttons.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.accordion.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.navigation.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.mediaQueryToggle.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.buttons.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.tabs.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.tooltips.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.accordion.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.placeholder.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.alerts.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.topbar.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.joyride.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.clearing.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.magellan.js"></script>
+	
+	<!-- Initialize JS Plugins -->
 	<script src="{$ThemeDir}/javascript/foundation/app.js"></script>
+	
 	<% if InSection(home) %>
 	<script type="text/javascript">
-		$(document).ready(function() {
+		$(window).load(function() {
 			$("#featured").orbit();
 		});
 	</script>
 	<% end_if %>
+	
 </body>
 </html>
