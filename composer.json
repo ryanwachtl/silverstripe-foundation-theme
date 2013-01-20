@@ -1,6 +1,6 @@
 {
 	"name": "rywa/silverstripe-themes-foundation",
-	"type": "silverstripe-module",
+	"type": "silverstripe-theme",
 	"description": "SilverStripe prototyping theme based on Zurb Foundation",
 	"keywords": ["silverstripe", "foundation", "zurbfoundation", "prototyping", "theme"],
 	"license": "MIT Open Source License",
@@ -12,11 +12,9 @@
 	],
 	"require": 
 	{
-		"php": ">=5.3.2",
-		"silverstripe/framework": "3.*",
-		"silverstripe/cms": "3.*"
+		"composer/installers": "*",
+        "silverstripe/framework": ">=3.0"
 	},
-	"target-dir": "themes/",
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
 	}
