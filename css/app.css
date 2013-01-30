@@ -624,12 +624,12 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
 /* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
 /* Timer ---------------------- */
 .orbit-wrapper .timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right: 10px; opacity: .6; cursor: pointer; z-index: 31; }
-.orbit-wrapper span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('../images/foundation/orbit/rotator-black.png?1358223220') no-repeat; z-index: 3; }
+.orbit-wrapper span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('../images/foundation/orbit/rotator-black.png?1359516974') no-repeat; z-index: 3; }
 .orbit-wrapper span.rotator.move { left: 0; }
 .orbit-wrapper span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
-.orbit-wrapper span.mask.move { width: 40px; left: 0; background: url('../images/foundation/orbit/timer-black.png?1358223220') repeat 0 0; }
-.orbit-wrapper span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0; background: url('../images/foundation/orbit/pause-black.png?1358223220') no-repeat; z-index: 4; opacity: 0; }
-.orbit-wrapper span.pause.active { background: url('../images/foundation/orbit/pause-black.png?1358223220') no-repeat 0 -40px; }
+.orbit-wrapper span.mask.move { width: 40px; left: 0; background: url('../images/foundation/orbit/timer-black.png?1359516974') repeat 0 0; }
+.orbit-wrapper span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0; background: url('../images/foundation/orbit/pause-black.png?1359516974') no-repeat; z-index: 4; opacity: 0; }
+.orbit-wrapper span.pause.active { background: url('../images/foundation/orbit/pause-black.png?1359516974') no-repeat 0 -40px; }
 .orbit-wrapper .timer:hover span.pause, .orbit-wrapper .timer:focus span.pause, .orbit-wrapper span.pause.active { opacity: 1; }
 
 /* Captions ---------------------- */
@@ -640,15 +640,15 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
 /* Directional Nav ---------------------- */
 .orbit-wrapper .slider-nav { display: block; }
 .orbit-wrapper .slider-nav span { width: 39px; height: 50px; text-indent: -9999px; position: absolute; z-index: 30; top: 50%; margin-top: -25px; cursor: pointer; }
-.orbit-wrapper .slider-nav span.right { background: url('../images/foundation/orbit/right-arrow.png?1358223220'); background-size: 100%; right: 0; }
-.orbit-wrapper .slider-nav span.left { background: url('../images/foundation/orbit/left-arrow.png?1358223220'); background-size: 100%; left: 0; }
+.orbit-wrapper .slider-nav span.right { background: url('../images/foundation/orbit/right-arrow.png?1359516974'); background-size: 100%; right: 0; }
+.orbit-wrapper .slider-nav span.left { background: url('../images/foundation/orbit/left-arrow.png?1359516974'); background-size: 100%; left: 0; }
 
-.lt-ie9 .orbit-wrapper .slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png?1358223220'); }
-.lt-ie9 .orbit-wrapper .slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png?1358223220'); }
+.lt-ie9 .orbit-wrapper .slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png?1359516974'); }
+.lt-ie9 .orbit-wrapper .slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png?1359516974'); }
 
 /* Bullet Nav ---------------------- */
 ul.orbit-bullets { position: absolute; z-index: 30; list-style: none; bottom: -40px; left: 50%; margin-left: -50px; padding: 0; }
-ul.orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999999; text-indent: -9999px; background: url('../images/foundation/orbit/bullets.jpg?1358223220') no-repeat 4px 0; width: 13px; height: 12px; overflow: hidden; }
+ul.orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999999; text-indent: -9999px; background: url('../images/foundation/orbit/bullets.jpg?1359516974') no-repeat 4px 0; width: 13px; height: 12px; overflow: hidden; }
 ul.orbit-bullets li.active { color: #222222; background-position: -8px 0; }
 ul.orbit-bullets li.has-thumb { background: none; width: 100px; height: 75px; }
 ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px solid black; }
