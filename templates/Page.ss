@@ -6,8 +6,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
-	$MetaTags(false)
+	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> :: $SiteConfig.Title</title>
+$MetaTags(false)
 	<link rel="stylesheet" href="{$ThemeDir}/css/app.css">
 	<link rel="stylesheet" href="{$ThemeDir}/css/foundation-overrides.css">
 	<script src="{$ThemeDir}/javascript/foundation/modernizr.foundation.js"></script>
@@ -15,7 +15,15 @@
 
 <body>
 	
-	<% include Navigation %>
+	<%-- wrap the TopBar include with the Menu you would like to display --%>
+	<div class="row">
+		<div class="twelve columns">
+			<% with Menu(1) %>
+			<% include TopBar SiteTitle=$Top.SiteConfig.Title, ContainToGrid=true %>
+			<%-- <% include NavBar %> --%>
+			<% end_with %>
+		</div>
+	</div>
 	
 	<% if InSection(home) %>
 	<div class="row">
@@ -30,9 +38,7 @@
 	<% end_if %>
 	
 	<div class="main" role="main">
-		<div class="inner typography">
-			$Layout
-		</div>
+		$Layout
 	</div>
 	
 	<% if InSection(home) %>
@@ -112,7 +118,7 @@
 		<div class="twelve columns">
 			<div class="row">
 				<div class="six columns">
-					<p>&copy; Copyright no one at all. Go to town.</p>
+					<p>&copy; $Now.Year $SiteConfig.Title</p>
 				</div>
 				<div class="six columns">
 					<ul class="link-list right">
@@ -127,7 +133,9 @@
 		</div>
 	</footer>
 	
-	<!-- Included JS Files (Uncompressed) -->
+	<%-- js files (uncompressed) --%>
+	<%-- better to include using Requirements in your Controller --%>
+	<%-- Requirements::javascript('themes/foundation/javascript/foundation/jquery.js'); --%>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.mediaQueryToggle.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.forms.js"></script>
@@ -147,13 +155,13 @@
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.clearing.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/jquery.foundation.magellan.js"></script>
 	
-	<!-- Initialize JS Plugins -->
+	<%-- Initialize JS Plugins --%>
 	<script src="{$ThemeDir}/javascript/foundation/app.js"></script>
 	
 	<% if InSection(home) %>
 	<script type="text/javascript">
 		$(window).load(function() {
-			$("#featured").orbit();
+			$('#featured').orbit();
 		});
 	</script>
 	<% end_if %>

@@ -1,13 +1,13 @@
-<div class="contain-to-grid">
+<div class="<% if $ContainToGrid %>contain-to-grid<% end_if %>">
 	<nav class="top-bar">
 		<ul>
-			<li class="name"><h1><a href="home/">$SiteConfig.Title</a></h1></li>
+			<li class="name"><h1><a href="home/">$SiteTitle</a></h1></li>
 			<li class="toggle-topbar"><a href="#"></a></li>
 		</ul>
 		<section>
 			<ul class="right">
 				<li class="divider"></li>
-				<% loop Menu(1) %>
+				<% loop Me %>
 				<li class="<% if LinkingMode == current %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
 					<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
 					<% if Children %>
