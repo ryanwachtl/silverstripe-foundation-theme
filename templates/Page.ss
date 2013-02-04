@@ -20,7 +20,7 @@ $MetaTags(false)
 		<div class="twelve columns">
 			<% with Menu(1) %>
 			<% include TopBar SiteTitle=$Top.SiteConfig.Title, ContainToGrid=true %>
-			<%-- <% include NavBar %> --%>
+			<%-- <% include NavBar Vertical=false %> --%>
 			<% end_with %>
 		</div>
 	</div>
@@ -121,13 +121,9 @@ $MetaTags(false)
 					<p>&copy; $Now.Year $SiteConfig.Title</p>
 				</div>
 				<div class="six columns">
-					<ul class="link-list right">
-						<% loop Menu(1) %>
-						<li class="<% if LinkingMode == current %>active<% end_if %>">
-							<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
-						</li>
-						<% end_loop %>
-					</ul>
+					<% with Menu(1) %>
+					<% include InlineList Links=true, Float=right %>
+					<% end_with %>
 				</div>
 			</div>
 		</div>

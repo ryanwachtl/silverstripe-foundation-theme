@@ -1,9 +1,5 @@
-<% if Menu(2) %>
-	<% if Children %>
-	<ul class="side-nav">
-		<li>$Title</li>
-		<li class="divider"></li>
-		<% include SidebarMenu %>
-	</ul>
-	<% end_if %>
-<% end_if %>
+<div class="panel">
+	<% with ChildrenOf(Level(1).ID) %>
+		<% include SideNav %>
+	<% end_with %>
+</div>
