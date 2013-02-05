@@ -1,5 +1,5 @@
 {
-	"name": "rywa/foundation",
+	"name": "rywa/silverstripe-foundation",
 	"type": "silverstripe-theme",
 	"description": "SilverStripe prototyping theme based on Zurb Foundation",
 	"keywords": ["silverstripe", "foundation", "zurbfoundation", "prototyping", "theme"],
@@ -14,6 +14,9 @@
 	{
 		"composer/installers": "*",
         "silverstripe/framework": ">=3.0"
+	},
+	"extra": {
+		"installer-name": "foundation"
 	},
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
