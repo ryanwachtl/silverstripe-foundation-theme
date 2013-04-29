@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="{$ThemeDir}/css/foundation.css" />
 	<link rel="stylesheet" href="{$ThemeDir}/css/app.css" />
 
-	<script src="{$ThemeDir}/javascript/vendor/custom.modernizr.js"></script>
+	<script src="{$ThemeDir}/javascript/libs/custom.modernizr.js"></script>
 	
 </head>
 <body>
@@ -25,14 +25,15 @@
 			<ul class="title-area">
 				<%-- Title Area --%>
 				<li class="name">
-					<h1><a href="#">Top Bar Title</a></h1>
+					<h1><a href="/">$SiteConfig.Title</a></h1>
 				</li>
 				<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
 			</ul>
 			<section class="top-bar-section">
 				<ul class="left">
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
+					<% loop Menu(1) %>
+					<li><a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a></li>
+					<% end_loop %>
 				</ul>
 				<ul class="right">
 					<li class="search">
@@ -50,33 +51,6 @@
 		
 		</div>
 	</div>
-
-
-	<div class="row">
-		<div class="large-12 columns">
-			
-		<%-- Desktop Slider -%>
-			<div class="hide-for-small">
-				<div id="featured">
-					<img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-					<img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-					<img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-				</div>
-			</div>
-		<%-- End Desktop Slider --%>
-		
-		<%-- Mobile Header --%>
-		<div class="row">
-			<div class="small-12 show-for-small"><br>
-				<img src="http://placehold.it/1000x600&text=For Small Screens" />
-			</div>
-		</div>
-		<%-- End Mobile Header --%>
-		
-		</div>
-	</div>
-	
-	<br />
 
 	<div class="row">
 		<div class="large-12 columns">
@@ -166,7 +140,7 @@
 	</footer>
 	
 	<%-- jQuery JavaScript Library v1.9.1 --%>
-	<script src="{$ThemeDir}/javascript/vendor/jquery.js"></script>
+	<script src="{$ThemeDir}/javascript/libs/jquery-1.9.1.min.js"></script>
 	
 	<%-- Foundation JavaScript --%>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.js"></script>
@@ -189,12 +163,6 @@
 	
 	<script>
 		$(document).foundation();
-	</script>
-	
-	<script type="text/javascript">
-		$(window).load(function() {
-			$('#featured').orbit({ fluid: '2x1' });
-		});
 	</script>
 </body>
 </html>
