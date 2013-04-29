@@ -3,23 +3,10 @@ SilverStripe Zurb Foundation Theme
 
 A SilverStripe theme based on Foundation.
 
-Installing
+Installing with Composer
 =================================
 
-clone into your SilverStripe `themes` directory
-
-`git clone https://github.com/ryanwachtl/silverstripe-foundation.git foundation`
-
-if you want to edit the scss files you'll need to install the `compass` and `zurb-foundation` gems
-
-`[sudo] gem install compass`
-
-`[sudo] gem install zurb-foundation`
-
-Composer
-=================================
-
-`composer require rywa/silverstripe-foundation dev-master`
+`composer require rywa/silverstripe-foundation 3.2`
 
 Related Works
 =================================
