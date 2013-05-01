@@ -1,21 +1,17 @@
-<div class="row">
-	<div class="twelve columns">
-		<h2>$Title</h2>
-	</div>
-</div>
-
-<div class="row">
-
-	<div class="<% if Menu(2) %>nine push-three<% else %>twelve<% end_if %> columns">
+<div class="row">    
+	<div class="large-9 push-3 columns typography">
+		<h3>$Title <% if $Subhead %><small>$Subhead</small><% end_if %></h3>
 		$Content
 		$Form
-		$PageComments
 	</div>
-	
-	<% if Menu(2) %>
-	<div class="three pull-nine columns">
-		<% include SideBar %>
+	<div class="large-3 pull-9 columns">
+		<% with Parent %>
+		<ul class="side-nav">
+			<% loop Children %>
+			<li><a href="$Link">$MenuTitle</a></li>
+			<% end_loop %>
+		</ul>
+		<% end_with %>
+		<p><img src="http://placehold.it/320x240&text=Ad" /></p>
 	</div>
-	<% end_if %>
-
 </div>
