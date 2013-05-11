@@ -6,7 +6,7 @@ A SilverStripe theme based on Foundation.
 Installing with Composer
 =================================
 
-`composer require rywa/silverstripe-foundation 3.2`
+`composer require rywa/silverstripe-foundation 3.2.x-dev`
 
 Related Works
 =================================
