@@ -75,5 +75,12 @@
 	<script>
 		$(document).foundation();
 	</script>
+	<% if $URLSegment == "home" %>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#featured').orbit({ fluid: '2x1' });
+		});
+	</script>
+	<% end_if %>
 </body>
 </html>
