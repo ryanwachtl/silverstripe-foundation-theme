@@ -28,11 +28,18 @@
 	<% else %>
 	$Layout
 	<% end_if %>
+	
+	<% if InSection(home) %><% else %>
+	<div class="row">
+		<div class="twelve columns">
+			<% include Breadcrumbs %>
+		</div>
+	</div>
+	<% end_if %>
 
 	<%-- Footer --%>
 	<footer class="row">
 		<div class="large-12 columns">
-			<hr>
 			<div class="row">
 				<div class="large-6 columns">
 					<p>&copy; Copyright $Now.Year $SiteConfig.Title</p>
@@ -74,6 +81,10 @@
 	
 	<script>
 		$(document).foundation();
+		// For Kitchen Sink Page
+		$('#start-jr').on('click', function() {
+			$(document).foundation('joyride','start');
+		});
 	</script>
 	<% if $URLSegment == "home" %>
 	<script type="text/javascript">
