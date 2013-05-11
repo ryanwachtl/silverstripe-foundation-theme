@@ -19,7 +19,7 @@ if you want to edit the scss files you'll need to install the `compass` and `zur
 Composer
 =================================
 
-`composer require rywa/silverstripe-foundation dev-master`
+`composer require rywa/silverstripe-foundation 3.2`
 
 Related Works
 =================================
