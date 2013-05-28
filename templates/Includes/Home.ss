@@ -63,7 +63,7 @@
 								</div>
 							</div>
 							<div class="large-6 small-6 columns">
-								<p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.</p>
+								<p>Find this theme on <a href="https://github.com/ryanwachtl/silverstripe-foundation">Github</a> or <a href="https://packagist.org/packages/rywa/silverstripe-foundation">Packagist</a>.</p>
 							</div>
 						</div>
 					</div>

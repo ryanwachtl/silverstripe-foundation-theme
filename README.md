@@ -1,17 +1,20 @@
-SilverStripe Zurb Foundation Theme
+SilverStripe Foundation Theme
 =================================
 
-A SilverStripe theme based on Foundation.
+A SilverStripe prototyping theme based on ZURB Foundation.
+
+Installing with Git
+=================================
+
+`git clone git://github.com/ryanwachtl/silverstripe-foundation.git foundation`
 
 Installing with Composer
 =================================
 
-`composer require rywa/silverstripe-foundation 3.2.x-dev`
+`composer require rywa/silverstripe-foundation`
 
-Related Works
+Recommended
 =================================
-
-[SilverStripe Zurb Foundation Blog Theme](https://github.com/ryanwachtl/silverstripe-foundation-blog)
 
 [SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
 

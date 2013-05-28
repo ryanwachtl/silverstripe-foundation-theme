@@ -1,5 +1,4 @@
-<div class="panel">
-	<% with ChildrenOf(Level(1).ID) %>
-		<% include SideNav %>
-	<% end_with %>
-</div>
+
+<% include SideNav %>
+
+<p><img src="http://placehold.it/320x240&text=Ad" /></p>

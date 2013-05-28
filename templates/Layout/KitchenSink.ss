@@ -39,10 +39,10 @@ This is a secondary alert (div.alert-box.secondary).
 <h4>Block Grid</h4>
 
 <ul class="small-block-grid-2 large-block-grid-4">
-<li><img class="th" src="../img/demos/demo1.jpg"></li>
-<li><img class="th" src="../img/demos/demo2.jpg"></li>
-<li><img class="th" src="../img/demos/demo3.jpg"></li>
-<li><img class="th" src="../img/demos/demo4.jpg"></li>
+<li><img class="th" src="{$ThemeDir}/images/demos/demo1.jpg"></li>
+<li><img class="th" src="{$ThemeDir}/images/demos/demo2.jpg"></li>
+<li><img class="th" src="{$ThemeDir}/images/demos/demo3.jpg"></li>
+<li><img class="th" src="{$ThemeDir}/images/demos/demo4.jpg"></li>
 </ul>
 
 <hr>
@@ -113,11 +113,11 @@ This is a secondary alert (div.alert-box.secondary).
 
 <div>
 <ul class="clearing-thumbs" data-clearing>
-<li><a class="th" href="../img/demos/demo1.jpg"><img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="../img/demos/demo1-th.jpg"></a></li>
-<li><a class="th" href="../img/demos/demo2.jpg"><img src="../img/demos/demo2-th.jpg"></a></li>
-<li><a class="th" href="../img/demos/demo3.jpg"><img data-caption="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus." src="../img/demos/demo3-th.jpg"></a></li>
-<li><a class="th" href="../img/demos/demo4.jpg"><img src="../img/demos/demo4-th.jpg"></a></li>
-<li><a class="th" href="../img/demos/demo5.jpg"><img data-caption="Integer posuere erat a ante venenatis dapibus posuere velit aliquet." src="../img/demos/demo5-th.jpg"></a></li>
+<li><a class="th" href="{$ThemeDir}/images/demos/demo1.jpg"><img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="{$ThemeDir}/images/demos/demo1-th.jpg"></a></li>
+<li><a class="th" href="{$ThemeDir}/images/demos/demo2.jpg"><img src="{$ThemeDir}/images/demos/demo2-th.jpg"></a></li>
+<li><a class="th" href="{$ThemeDir}/images/demos/demo3.jpg"><img data-caption="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus." src="{$ThemeDir}/images/demos/demo3-th.jpg"></a></li>
+<li><a class="th" href="{$ThemeDir}/images/demos/demo4.jpg"><img src="{$ThemeDir}/images/demos/demo4-th.jpg"></a></li>
+<li><a class="th" href="{$ThemeDir}/images/demos/demo5.jpg"><img data-caption="Integer posuere erat a ante venenatis dapibus posuere velit aliquet." src="{$ThemeDir}/images/demos/demo5-th.jpg"></a></li>
 </ul>
 </div>
 
@@ -272,19 +272,19 @@ This is a secondary alert (div.alert-box.secondary).
 <div class="large-6 columns">
 <ul id="featured1" data-orbit data-options="timer_speed:5000;">
 <li>
-<img src="../img/demos/demo1.jpg" />
+<img src="{$ThemeDir}/images/demos/demo1.jpg" />
 <div class="orbit-caption">
 Caption One. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 </div>
 </li>
 <li>
-<img src="../img/demos/demo2.jpg" />
+<img src="{$ThemeDir}/images/demos/demo2.jpg" />
 <div class="orbit-caption">
 Caption Two. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 </div>
 </li>
 <li>
-<img src="../img/demos/demo3.jpg" />
+<img src="{$ThemeDir}/images/demos/demo3.jpg" />
 <div class="orbit-caption">
 Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 </div>
@@ -367,142 +367,142 @@ Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesu
 <h4>Section</h4>
 
 <div class="row">
-<div class="large-3 columns">
-<div class="section-container vertical-nav" data-section="vertical-nav">
-<section class="section">
-<p class="title"><a href="#">Section 1</a></p>
-<div class="content">
-<ul class="side-nav">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li class="divider"></li>
-<li><a href="#">Link 1</a></li>
-</ul>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#">Section 2</a></p>
-<div class="content">
-<ul class="side-nav">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li class="divider"></li>
-<li><a href="#">Link 1</a></li>
-</ul>
-</div>
-</section>
-</div>
-</div>
-<div class="large-9 columns">
-<div class="section-container horizontal-nav" data-section="horizontal-nav">
-<section class="section">
-<p class="title"><a href="#">Section 1</a></p>
-<div class="content">
-<ul class="side-nav">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li class="divider"></li>
-<li><a href="#">Link 1</a></li>
-</ul>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#">Section 2</a></p>
-<div class="content">
-<ul class="side-nav">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li class="divider"></li>
-<li><a href="#">Link 1</a></li>
-</ul>
-</div>
-</section>
-</div>
-<div class="section-container auto" data-section data-options="deep_linking: true;">
-<section class="section">
-<p class="title"><a href="#panel1">Section 1</a></p>
-<div class="content" data-slug="panel1">
-<p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#panel2">Section 2</a></p>
-<div class="content" data-slug="panel2">
-<p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<div class="section">
-<p class="title"><a href="#panel3">Section 3</a></p>
-<div class="content" data-slug="panel3">
-<form>
-<div class="row collapse">
-<div class="large-2 columns">
-<label class="inline">Your Name</label>
-</div>
-<div class="large-10 columns">
-<input type="text" id="yourName" placeholder="Jane Smith">
-</div>
-</div>
-<div class="row collapse">
-<div class="large-2 columns">
-<label class="inline"> Your Email</label>
-</div>
-<div class="large-10 columns">
-<input type="text" id="yourEmail" placeholder="jane@smithco.com">
-</div>
-</div>
-<label>What's up?</label>
-<textarea rows="4"></textarea>
-<button type="submit" class="radius button">Submit</button>
-</form>
-</div>
-</div>
-</div>
-<div class="section-container accordion" data-section="accordion">
-<section class="section">
-<p class="title"><a href="#panel1">Section 1</a></p>
-<div class="content" data-slug="panel1">
-<p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#panel2">Section 2</a></p>
-<div class="content" data-slug="panel2">
-<p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#panel3">Section 3</a></p>
-<div class="content" data-slug="panel3">
-<p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-</div>
-<div class="section-container tabs" data-section="tabs">
-<section class="section">
-<p class="title"><a href="#panel1">Section 1</a></p>
-<div class="content" data-slug="panel1">
-<p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#panel2">Section 2</a></p>
-<div class="content" data-slug="panel2">
-<p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-<section class="section">
-<p class="title"><a href="#panel3">Section 3</a></p>
-<div class="content" data-slug="panel3">
-<p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</section>
-</div>
-</div>
+  <div class="large-3 columns">
+    <div class="section-container vertical-nav" data-section="vertical-nav">
+      <section class="section">
+        <p class="title"><a href="#">Section 1</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#">Section 2</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="section-container horizontal-nav" data-section="horizontal-nav">
+      <section class="section">
+        <p class="title"><a href="#">Section 1</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#">Section 2</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="section-container auto" data-section data-options="deep_linking: true;">
+      <section class="section">
+        <p class="title"><a href="#panel1">Section 1</a></p>
+        <div class="content" data-slug="panel1">
+          <p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#panel2">Section 2</a></p>
+        <div class="content" data-slug="panel2">
+          <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <div class="section">
+        <p class="title"><a href="#panel3">Section 3</a></p>
+        <div class="content" data-slug="panel3">
+          <form>
+            <div class="row collapse">
+              <div class="large-2 columns">
+                <label class="inline">Your Name</label>
+              </div>
+              <div class="large-10 columns">
+                <input type="text" id="yourName" placeholder="Jane Smith">
+              </div>
+            </div>
+            <div class="row collapse">
+              <div class="large-2 columns">
+                <label class="inline"> Your Email</label>
+              </div>
+              <div class="large-10 columns">
+                <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+              </div>
+            </div>
+            <label>What's up?</label>
+            <textarea rows="4"></textarea>
+            <button type="submit" class="radius button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="section-container accordion" data-section="accordion">
+      <section class="section">
+        <p class="title"><a href="#panel1">Section 1</a></p>
+        <div class="content" data-slug="panel1">
+          <p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#panel2">Section 2</a></p>
+        <div class="content" data-slug="panel2">
+          <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#panel3">Section 3</a></p>
+        <div class="content" data-slug="panel3">
+          <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+    </div>
+    <div class="section-container tabs" data-section="tabs">
+      <section class="section">
+        <p class="title"><a href="#panel1">Section 1</a></p>
+        <div class="content" data-slug="panel1">
+          <p>Section 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#panel2">Section 2</a></p>
+        <div class="content" data-slug="panel2">
+          <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#panel3">Section 3</a></p>
+        <div class="content" data-slug="panel3">
+          <p>Section 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </section>
+    </div>
+  </div>
 </div>
 
 <hr>
@@ -616,8 +616,8 @@ Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesu
 
 <h4>Thumbnails</h4>
 
-<p><a class="th" href="../img/demos/demo1.jpg"><img src="../img/demos/demo1-th.jpg"></a></p>
-<img class="th" src="../img/demos/demo2-th.jpg">
+<p><a class="th" href="{$ThemeDir}/images/demos/demo1.jpg"><img src="{$ThemeDir}/images/demos/demo1-th.jpg"></a></p>
+<img class="th" src="{$ThemeDir}/images/demos/demo2-th.jpg">
 
 <hr>
 
@@ -814,7 +814,7 @@ Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesu
 <div id="contentDrop" class="f-dropdown content medium" data-dropdown-content>
 <h4>Title</h4>
 <p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p>
-<img src="../img/demos/demo1.jpg">
+<img src="{$ThemeDir}/images/demos/demo1.jpg">
 <p>More test.</p>
 <a href="#" class="button">Button</a>
 </div>

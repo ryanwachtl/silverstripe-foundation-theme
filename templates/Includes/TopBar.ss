@@ -9,7 +9,7 @@
 	<section class="top-bar-section">
 		<ul class="left">
 			<% loop Menu(1) %>
-			<li class="<% if LinkingMode == current %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
+			<li class="<% if LinkingMode == current %>active<% end_if %><% if LinkingMode == section %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
 			<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
 			<% if Children %>
 			<ul class="dropdown">
