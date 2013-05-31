@@ -1,7 +1,7 @@
 SilverStripe Foundation Theme
 =================================
 
-A SilverStripe prototyping theme based on ZURB Foundation.
+A SilverStripe prototyping theme based on ZURB Foundation (4.2.1).
 
 Installing with Git
 =================================
@@ -25,7 +25,6 @@ Foundation is the most advanced responsive front-end framework in the world. Wit
 
 - [Homepage](http://foundation.zurb.com)
 - [Documentation](http://foundation.zurb.com/docs)
-- [Download](http://foundation.zurb.com/download.php)
 
 MIT Open Source License
 =======================

@@ -23,11 +23,7 @@
 		</div>
 	</div>
 
-	<% if $URLSegment == "home" %>
-	<% include Home %>
-	<% else %>
 	$Layout
-	<% end_if %>
 	
 	<% if InSection(home) %><% else %>
 	<div class="row">
@@ -86,12 +82,5 @@
 			$(document).foundation('joyride','start');
 		});
 	</script>
-	<% if $URLSegment == "home" %>
-	<script type="text/javascript">
-		$(window).load(function() {
-			$('#featured').orbit({ fluid: '2x1' });
-		});
-	</script>
-	<% end_if %>
 </body>
 </html>
