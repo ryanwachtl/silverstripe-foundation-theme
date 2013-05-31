@@ -16,12 +16,8 @@
 	
 </head>
 <body>
-
-	<div class="row">
-		<div class="large-12 columns">
-		<% include TopBar %>
-		</div>
-	</div>
+	
+	<% include TopBar %>
 
 	$Layout
 	
@@ -53,10 +49,13 @@
 		</div>
 	</footer>
 	
-	<%-- jQuery JavaScript Library v1.9.1 --%>
+	<%-- jQuery 1.9.1 --%>
 	<script src="{$ThemeDir}/javascript/libs/jquery-1.9.1.min.js"></script>
 	
-	<%-- Foundation JavaScript --%>
+	<%-- Foundation All --%>
+	<script src="{$ThemeDir}/javascript/foundation.min.js"></script>
+	
+	<!--
 	<script src="{$ThemeDir}/javascript/foundation/foundation.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.alerts.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.clearing.js"></script>
@@ -72,16 +71,10 @@
 	<script src="{$ThemeDir}/javascript/foundation/foundation.tooltips.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.topbar.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.interchange.js"></script>
-	
-	<%-- Site JavaScript --%>
+	-->
+		
+	<%-- App --%>
 	<script src="{$ThemeDir}/javascript/app.js"></script>
 	
-	<script>
-		$(document).foundation();
-		// For Kitchen Sink Page
-		$('#start-jr').on('click', function() {
-			$(document).foundation('joyride','start');
-		});
-	</script>
 </body>
 </html>
