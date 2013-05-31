@@ -60,7 +60,7 @@
 	<script src="{$ThemeDir}/javascript/foundation/foundation.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.alerts.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.clearing.js"></script>
-	<script src="j{$ThemeDir}/javascript/foundation/foundation.cookie.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/foundation.cookie.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.dropdown.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.forms.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.joyride.js"></script>
