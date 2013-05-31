@@ -3,7 +3,7 @@
 //
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
-// for compatibility with brower-based text zoom or user-set defaults.
+// for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
 
 // $base-line-height is 24px while $base-font-size is 16px
@@ -21,9 +21,12 @@ $em-base: 16px !default;
   @return $pxWidth / $em-base * 1em;
 }
 
+// Change whether or not you include browser prefixes
+// $experimental: true;
+
 // Various global styles
 
-// $default-float: left;
+$default-float: left;
 
 // $body-bg: #fff;
 // $body-font-color: #222;
@@ -76,6 +79,7 @@ $em-base: 16px !default;
 // $include-html-clearing-classes: $include-html-classes;
 // $include-html-alert-classes: $include-html-classes;
 // $include-html-nav-classes: $include-html-classes;
+// $include-html-top-bar-classes: $include-html-classes;
 // $include-html-label-classes: $include-html-classes;
 // $include-html-panel-classes: $include-html-classes;
 // $include-html-pricing-classes: $include-html-classes;
@@ -85,9 +89,9 @@ $em-base: 16px !default;
 
 // Media Queries
 
-// $small-screen: emCalc(768px);
-// $medium-screen: emCalc(1280px);
-// $large-screen: emCalc(1440px);
+// $small-screen: 768px;
+// $medium-screen: 1280px;
+// $large-screen: 1440px;
 
 // $screen: "only screen";
 // $small: "only screen and (min-width: #{$small-screen})";
@@ -95,6 +99,15 @@ $em-base: 16px !default;
 // $large: "only screen and (min-width: #{$large-screen})";
 // $landscape: "only screen and (orientation: landscape)";
 // $portrait: "only screen and (orientation: portrait)";
+
+//// Cursors
+
+//Custom use example -> $cursor-default-value: url(http://cursors-site.net/path/to/custom/cursor/default.cur),progress;
+
+// $cursor-crosshair-value: "crosshair";
+// $cursor-default-value: "default";
+// $cursor-pointer-value: "pointer";
+// $cursor-help-value: "help";
 
 //
 // Grid Variables
@@ -111,7 +124,7 @@ $em-base: 16px !default;
 // Maximum number of block grid elements per row
 
 // $block-grid-elements: 12;
-// $block-grid-default-spacing: 10px;
+// $block-grid-default-spacing: emCalc(20px);
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 
@@ -187,7 +200,8 @@ $em-base: 16px !default;
 // Lists
 
 // $list-style-position: outside;
-// $list-side-margin: emCalc(18px);
+// $list-side-margin: emCalc(20px);
+// $list-nested-margin: emCalc(20px);
 // $definition-list-header-weight: bold;
 // $definition-list-header-margin-bottom: .3em;
 // $definition-list-margin-bottom: emCalc(12px);
@@ -260,6 +274,7 @@ $em-base: 16px !default;
 // $input-border-width: 1px;
 // $input-disabled-bg: #ddd;
 // $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+// $input-include-glowing-effect: true;
 
 // Fieldset border and spacing.
 
@@ -293,6 +308,15 @@ $em-base: 16px !default;
 // $input-error-message-font-weight: bold;
 // $input-error-message-font-color: #fff;
 // $input-error-message-font-color-alt: #333;
+
+// Glowing effect of inputs when focused
+
+// $glowing-effect-fade-time: 0.45s;
+// $glowing-effect-color: $input-focus-border-color;
+
+//
+// Button Variables
+//
 
 // Padding for buttons.
 
@@ -335,6 +359,14 @@ $em-base: 16px !default;
 // Opacity for disabled buttons.
 
 // $button-disabled-opacity: 0.6;
+
+//
+// Button Groups
+//
+
+// Sets the margin for the right side by default, and the left margin if right-to-left direction is used
+
+// $button-bar-margin-opposite: emCalc(10px);
 
 //
 // Dropdown Button Variables
@@ -420,43 +452,44 @@ $em-base: 16px !default;
 // Alert Variables
 //
 
-// Alert padding.
+// Alert padding
 
-// $alert-padding-top: emCalc(11px);
-// $alert-padding-left: $alert-padding-top;
-// $alert-padding-right: $alert-padding-top + emCalc(10px);
-// $alert-padding-bottom: $alert-padding-top + emCalc(1px);
+// $alert-padding-top:                emCalc(11px);
+// $alert-padding-default-float:      $alert-padding-top;
+// $alert-padding-opposite-direction: $alert-padding-top + emCalc(10px);
+// $alert-padding-bottom:             $alert-padding-top + emCalc(1px);
 
-// Text style.
+// Text style
 
-// $alert-font-weight: bold;
-// $alert-font-size: emCalc(14px);
-// $alert-font-color: #fff;
-// $alert-font-color-alt: darken($secondary-color, 60%);
+// $alert-font-weight:                bold;
+// $alert-font-size:                  emCalc(14px);
+// $alert-font-color:                 #fff;
+// $alert-font-color-alt:             darken($secondary-color, 60%);
 
-// Close hover effect.
+// Hover effect
 
-// $alert-function-factor: 10%;
+// $alert-function-factor:            10%;
 
-// Border styles.
+// Border Styles
 
-// $alert-border-style: solid;
-// $alert-border-width: 1px;
-// $alert-border-color: darken($primary-color, $alert-function-factor);
-// $alert-bottom-margin: emCalc(20px);
+// $alert-border-style:               solid;
+// $alert-border-width:               1px;
+// $alert-border-color:               darken($primary-color, $alert-function-factor);
+// $alert-bottom-margin:              emCalc(20px);
 
-// Close buttons
+// Close Button style
 
-// $alert-close-color: #333;
-// $alert-close-position: emCalc(5px);
-// $alert-close-font-size: emCalc(22px);
-// $alert-close-opacity: 0.3;
-// $alert-close-opacity-hover: 0.5;
-// $alert-close-padding: 5px 4px 4px;
+// $alert-close-color:                #333;
+// $alert-close-position:             emCalc(5px);
+// $alert-close-font-size:            emCalc(22px);
+// $alert-close-opacity:              0.3;
+// $alert-close-opacity-hover:        0.5;
+// $alert-close-padding:              5px 4px 4px;
 
 // Border radius
 
-// $alert-radius: $global-radius;
+// $alert-radius:                     $global-radius;
+
 
 //
 // Breadcrumb Variables
@@ -744,7 +777,6 @@ $em-base: 16px !default;
 // Caption styles
 
 // $orbit-container-bg: #f5f5f5;
-// $orbit-caption-bg-old-browser: #000;
 // $orbit-caption-bg-old: rgb(0,0,0);
 // $orbit-caption-bg: rgba(0,0,0,0.6);
 // $orbit-caption-font-color: #fff;
@@ -766,13 +798,14 @@ $em-base: 16px !default;
 
 // Slide numbers
 
-// $orbit-slide-number-bg: rgb(0,0,0);
+// $orbit-slide-number-bg: rgba(0,0,0,0);
 // $orbit-slide-number-font-color: #fff;
 // $orbit-slide-number-padding: emCalc(5px);
 
-// Margin for when Orbit is stacked on small screens
+// Graceful Loading Wrapper and preloader
 
-// $stack-on-small-margin-bottom: emCalc(20px); // Doesn't quite work yet
+// $wrapper-class: "slideshow-wrapper";
+// $preloader-class: "preloader" ;
 
 //
 // Pagination Variables
@@ -799,7 +832,7 @@ $em-base: 16px !default;
 
 // Disabled anchor links
 
-// $pagination-link-unavailable-cursor: default;
+// $pagination-link-unavailable-cursor: $cursor-default-value;
 // $pagination-link-unavailable-font-color: #999;
 // $pagination-link-unavailable-bg-active: transparent;
 
@@ -808,7 +841,7 @@ $em-base: 16px !default;
 // $pagination-link-current-background: $primary-color;
 // $pagination-link-current-font-color: #fff;
 // $pagination-link-current-font-weight: bold;
-// $pagination-link-current-cursor: default;
+// $pagination-link-current-cursor: $cursor-default-value;
 // $pagination-link-current-active-bg: $primary-color;
 
 //
@@ -951,13 +984,17 @@ $em-base: 16px !default;
 // $reveal-border-width: 1px;
 // $reveal-border-color: #666;
 
+// $reveal-modal-class: "reveal-modal";
+// $close-reveal-modal-class: "close-reveal-modal";
+
 //
 // Section Variables
 //
 
 // Padding and hover factor
 
-// $section-padding: emCalc(15px);
+// $section-title-padding: emCalc(15px);
+// $section-content-padding: emCalc(15px);
 // $section-function-factor: 10%;
 
 // Titles
@@ -966,6 +1003,7 @@ $em-base: 16px !default;
 // $section-title-bg: #efefef;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
 // $section-title-bg-active-tabs: #fff;
+// $section-title-bg-hover: darken($section-title-bg, $section-function-factor/2);
 
 // Border size
 
@@ -973,12 +1011,19 @@ $em-base: 16px !default;
 // $section-border-style: solid;
 // $section-border-color: #ccc;
 
-// Color of the background and some size options
+// Font controls
+
+// $section-font-size: emCalc(14px);
+
+// Control the color of the background and some size options
 
 // $section-content-bg: #fff;
 // $section-vertical-nav-min-width: emCalc(200px);
 // $section-vertical-tabs-title-width: emCalc(200px);
 // $section-bottom-margin: emCalc(20px);
+
+// $title-selector: ".title";
+// $content-selector: ".content";
 
 //
 // Side Nav Variables
@@ -1030,7 +1075,7 @@ $em-base: 16px !default;
 // $sub-nav-active-bg: $primary-color;
 // $sub-nav-active-color: #fff;
 // $sub-nav-active-padding: emCalc(3px) emCalc(9px);
-// $sub-nav-active-cursor: default;
+// $sub-nav-active-cursor: $cursor-default-value;
 
 //
 // Switch Variables
@@ -1157,50 +1202,68 @@ $em-base: 16px !default;
 
 // Background color for the top bar
 
-// $topbar-bg: #111;
+// $topbar-bg:                            #111 !default;
 
 // Height and margin
 
-// $topbar-height: 45px;
-// $topbar-margin-bottom: emCalc(30px);
+// $topbar-height:                        45px;
+// $topbar-margin-bottom:                 emCalc(30px);
 
-// Input height for top bar
+// Control Input height for top bar
 
-// $topbar-input-height: 2.45em;
+// $topbar-input-height:                  2.45em;
 
-// Title in the top bar
+// Controlling the styles for the title in the top bar
 
-// $topbar-title-weight: bold;
-// $topbar-title-font-size: emCalc(17px);
+// $topbar-title-weight:                  bold;
+// $topbar-title-font-size:               emCalc(17px);
 
-// Link colors and styles for top-level nav
+// Style the top bar dropdown elements
 
-// $topbar-link-color: #fff;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
-// $topbar-link-hover-lightness: -30% !default; // Darken by 30%
+// $topbar-dropdown-bg:                   #222;
+// $topbar-dropdown-link-color:           #fff;
+// $topbar-dropdown-link-bg:              lighten($topbar-bg, 5%);
+// $topbar-dropdown-toggle-size:          5px;
+// $topbar-dropdown-toggle-color:         #fff;
+// $topbar-dropdown-toggle-alpha:         0.5;
 
-// Top bar dropdown elements
+// Set the link colors and styles for top-level nav
 
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
-// $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.5;
-// $dropdown-label-color: #555;
+// $topbar-link-color:                    #fff;
+// $topbar-link-color-hover:              #fff;
+// $topbar-link-color-active:             #fff;
+// $topbar-link-weight:                   bold;
+// $topbar-link-font-size:                emCalc(13px);
+// $topbar-link-hover-lightness:          -30%; // Darken by 30%
+// $topbar-link-bg-hover:                 darken($topbar-bg, 3%);
+// $topbar-link-bg-active:                darken($topbar-bg, 3%);
+
+// $topbar-dropdown-label-color:          #555;
+// $topbar-dropdown-label-text-transform: uppercase;
+// $topbar-dropdown-label-font-weight:    bold;
+// $topbar-dropdown-label-font-size:      emCalc(10px);
 
 // Top menu icon styles
 
-// $topbar-menu-link-transform: uppercase;
-// $topbar-menu-link-font-size: emCalc(13px);
-// $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+// $topbar-menu-link-transform:           uppercase;
+// $topbar-menu-link-font-size:           emCalc(13px);
+// $topbar-menu-link-weight:              bold;
+// $topbar-menu-link-color:               #fff;
+// $topbar-menu-icon-color:               #fff;
+// $topbar-menu-link-color-toggled:       #888;
+// $topbar-menu-icon-color-toggled:       #888;
 
 // Transitions and breakpoint styles
 
-// $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
-// $topbar-media-query: "only screen and (min-width: "#{$topbar-breakpoint}")";
+// $topbar-transition-speed:              300ms;
+// $topbar-breakpoint:                    emCalc(940px); // Change to 9999px for always mobile layout
+// $topbar-media-query:                   "only screen and (min-width: #{$topbar-breakpoint})";
+
+// Divider Styles
+
+// $topbar-divider-border-bottom:         solid 1px lighten($topbar-bg, 10%);
+// $topbar-divider-border-top:            solid 1px darken($topbar-bg, 10%);
+
+// Sticky Class
+
+// $topbar-sticky-class:                  ".sticky";

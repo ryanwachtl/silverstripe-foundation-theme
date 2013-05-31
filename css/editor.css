@@ -39,7 +39,10 @@
     font-weight: normal;
     font-style: normal;
     line-height: 1;
-    position: relative; }
+    position: relative;
+    cursor: default; }
+  .typography a:hover {
+    cursor: pointer; }
   .typography a:focus {
     outline: none; }
   .typography img,
@@ -187,6 +190,8 @@
     margin-bottom: 1.25em;
     list-style-position: outside;
     font-family: inherit; }
+  .typography ul, .typography ol {
+    margin-left: 1.25em; }
   .typography ul li ul,
   .typography ul li ol {
     margin-left: 1.25em;
@@ -257,7 +262,7 @@
     font-weight: bold;
     border: none;
     padding: 0 0.0625em; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 768px) {
     .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
       line-height: 1.4; }
     .typography h1 {
@@ -480,7 +485,7 @@
       .typography button.round, .typography .button.round {
         -webkit-border-radius: 1000px;
         border-radius: 1000px; } }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 768px) {
     .typography button, .typography .button {
       display: inline-block; } }
   .typography .flex-video {
@@ -512,7 +517,7 @@
     border-width: 1px;
     margin: 0;
     font-family: "Consolas", "Menlo", "Courier", monospace;
-    font-size: 0.9375em;
+    font-size: 0.875em;
     padding: 0.125em 0.25em 0em;
     -webkit-border-radius: 3px;
     border-radius: 3px; }

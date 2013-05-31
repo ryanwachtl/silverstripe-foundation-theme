@@ -54,7 +54,7 @@ $input-error-message-font-weight:    bold !default;
 $input-error-message-font-color:     #fff !default;
 $input-error-message-font-color-alt: #333 !default;
 
-//We use this to style the glowing effect of inputs when focused
+// We use this to style the glowing effect of inputs when focused
 $glowing-effect-fade-time:           0.45s !default;
 $glowing-effect-color:               $input-focus-border-color !default;
 
@@ -88,7 +88,9 @@ $glowing-effect-color:               $input-focus-border-color !default;
   background-color: $input-bg-color;
   font-family: $input-font-family;
   border: $input-border-width $input-border-style $input-border-color;
-  -webkit-box-shadow: $input-box-shadow;
+  @if $experimental {
+    -webkit-box-shadow: $input-box-shadow;
+  }
   box-shadow: $input-box-shadow;
   color: $input-font-color;
   display: block;
@@ -333,7 +335,7 @@ $glowing-effect-color:               $input-focus-border-color !default;
   select {
     margin: 0 0 $form-spacing 0;
   }
-  
+
   /* Normalize file input width */
   input[type="file"] {
     width:100%;
