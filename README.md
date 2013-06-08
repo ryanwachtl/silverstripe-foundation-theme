@@ -13,6 +13,10 @@ Installing with Composer
 
 `composer require rywa/silverstripe-foundation`
 
+Demo
+=================================
+http://silverstripe-foundation.rywa.us/
+
 Recommended
 =================================
 
