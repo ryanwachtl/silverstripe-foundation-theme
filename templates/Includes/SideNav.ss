@@ -1,14 +1,14 @@
 <% if Menu(2) %>
 <div class="panel">
-	<% control Level(1) %>
+	<% loop Level(1) %>
 	<h3><a href="$Link">$MenuTitle.XML</a></h3>
-	<% end_control %>
+	<% end_loop %>
 	<ul class="side-nav">
-	<% control Menu(2) %>
+	<% loop Menu(2) %>
 		<li class="<% if LinkingMode == current %>active<% end_if %>">
 			<a href="$Link">$MenuTitle.XML</a>
 		</li>
-	<% end_control %>
+	<% end_loop %>
 	</ul>
 </div>
 <% end_if %>
