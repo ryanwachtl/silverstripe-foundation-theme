@@ -5,6 +5,8 @@ The fastest way to get up and running with the Foundation framework in your Silv
 
 A prototyping theme based on ZURB Foundation, current version 4.2.2. For use with SilverStripe 3.0 or 3.1
 
+![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
+
 Installing with Git
 =================================
 
