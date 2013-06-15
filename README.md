@@ -1,7 +1,9 @@
 SilverStripe Foundation Theme
 =================================
 
-A SilverStripe prototyping theme based on ZURB Foundation (4.2.1).
+The fastest way to get up and running with the Foundation framework in your SilverStripe project!
+
+A prototyping theme based on ZURB Foundation, current version 4.2.2. For use with SilverStripe 3.0 or 3.1
 
 Installing with Git
 =================================
