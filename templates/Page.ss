@@ -50,7 +50,7 @@
 	</footer>
 	
 	<%-- jQuery 1.9.1 --%>
-	<script src="{$ThemeDir}/javascript/libs/jquery-1.9.1.min.js"></script>
+	<script src="{$ThemeDir}/javascript/libs/jquery-1.10.1.min.js"></script>
 	
 	<%-- Foundation All --%>
 	<script src="{$ThemeDir}/javascript/foundation.min.js"></script>

@@ -191,7 +191,7 @@
     list-style-position: outside;
     font-family: inherit; }
   .typography ul, .typography ol {
-    margin-left: 1.25em; }
+    margin-left: 0; }
   .typography ul li ul,
   .typography ul li ol {
     margin-left: 1.25em;
@@ -459,16 +459,20 @@
           background-color: #c60f13; }
   .typography button, .typography .button {
     padding-top: 0.8125em;
-    padding-bottom: 0.75em; }
+    padding-bottom: 0.75em;
+    -webkit-appearance: none; }
     .typography button.tiny, .typography .button.tiny {
       padding-top: 0.5em;
-      padding-bottom: 0.4375em; }
+      padding-bottom: 0.4375em;
+      -webkit-appearance: none; }
     .typography button.small, .typography .button.small {
       padding-top: 0.625em;
-      padding-bottom: 0.5625em; }
+      padding-bottom: 0.5625em;
+      -webkit-appearance: none; }
     .typography button.large, .typography .button.large {
       padding-top: 1.03125em;
-      padding-bottom: 1.03125em; }
+      padding-bottom: 1.03125em;
+      -webkit-appearance: none; }
   @media only screen {
     .typography button, .typography .button {
       -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
