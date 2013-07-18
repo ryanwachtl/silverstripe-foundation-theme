@@ -522,7 +522,7 @@
     margin: 0;
     font-family: "Consolas", "Menlo", "Courier", monospace;
     font-size: 0.875em;
-    padding: 0.125em 0.25em 0em;
+    padding: 0.125em 0.25em 0;
     -webkit-border-radius: 3px;
     border-radius: 3px; }
   .typography .label {

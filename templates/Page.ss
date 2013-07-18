@@ -49,8 +49,8 @@
 		</div>
 	</footer>
 	
-	<%-- jQuery 1.9.1 --%>
-	<script src="{$ThemeDir}/javascript/libs/jquery-1.10.1.min.js"></script>
+	<%-- jQuery 1.10.2 --%>
+	<script src="{$ThemeDir}/javascript/libs/jquery-1.10.2.min.js"></script>
 	
 	<%-- Foundation All --%>
 	<script src="{$ThemeDir}/javascript/foundation.min.js"></script>
@@ -65,14 +65,15 @@
 	<script src="{$ThemeDir}/javascript/foundation/foundation.joyride.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.magellan.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.orbit.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.placeholder.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.reveal.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.section.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.tooltips.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.topbar.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.interchange.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/foundation.placeholder.js"></script>
+	<script src="{$ThemeDir}/javascript/foundation/foundation.abide.js"></script>
 	-->
-		
+	
 	<%-- App --%>
 	<script src="{$ThemeDir}/javascript/app.js"></script>
 	
