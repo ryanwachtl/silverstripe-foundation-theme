@@ -49,10 +49,10 @@
 		</div>
 	</footer>
 	
-	<%-- jQuery 1.10.2 --%>
+	<%-- jQuery Minified --%>
 	<script src="{$ThemeDir}/javascript/libs/jquery-1.10.2.min.js"></script>
 	
-	<%-- Foundation All --%>
+	<%-- Foundation Combined --%>
 	<script src="{$ThemeDir}/javascript/foundation.min.js"></script>
 	
 	<!--
