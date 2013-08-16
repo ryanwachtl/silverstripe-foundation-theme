@@ -34,6 +34,8 @@ Recommended
 
 [SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
 
+[SilverStripe Foundation HtmlEditorConfig Gist](https://gist.github.com/ryanwachtl/6251297)
+
 About Foundation
 =================================
 
