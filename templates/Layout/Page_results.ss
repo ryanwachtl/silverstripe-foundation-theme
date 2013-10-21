@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="twelve columns">
+	<div class="large-12 columns">
 		<% if $Query %>
 		<p class="searchQuery">You searched for &quot;{$Query}&quot;</p>
 		<% end_if %>
@@ -8,8 +8,8 @@
 		<% loop $Results %>
 		<!-- Feed Entry -->
 		<div class="row">
-			<div class="two columns mobile-one"><img src="http://placehold.it/80x80&text=[img]" /></div>
-			<div class="ten columns">
+			<div class="large-2 columns"><img src="http://placehold.it/80x80&text=[img]" /></div>
+			<div class="large-10 columns">
 				<h3><a href="$Link">$Title</a></h3>
 				<% if Content %>
 					$Content.FirstParagraph(html)

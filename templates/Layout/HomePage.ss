@@ -21,11 +21,11 @@
 </div><br />
 
 <!--
-	<script type="text/javascript">
-		$(window).load(function() {
-			$('#featured').orbit({ fluid: '2x1' });
-		});
-	</script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#featured').orbit({ fluid: '2x1' });
+	});
+</script>
 -->
 
 <div class="row">

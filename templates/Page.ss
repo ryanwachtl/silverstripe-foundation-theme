@@ -17,13 +17,17 @@
 </head>
 <body>
 	
-	<% include TopBar %>
+	<div class="row">
+		<div class="large-12 columns">
+			<% include TopBar %>
+		</div>
+	</div>
 
 	$Layout
 	
 	<% if InSection(home) %><% else %>
 	<div class="row">
-		<div class="twelve columns">
+		<div class="large-12 columns">
 			<% include Breadcrumbs %>
 		</div>
 	</div>
@@ -50,28 +54,33 @@
 	</footer>
 	
 	<%-- jQuery Minified --%>
-	<script src="{$ThemeDir}/javascript/libs/jquery-1.10.2.min.js"></script>
+	<script src="{$ThemeDir}/javascript/jquery-1.10.2.min.js"></script>
 	
-	<%-- Foundation Combined --%>
+	<%-- Foundation Combined & Minified --%>
 	<script src="{$ThemeDir}/javascript/foundation.min.js"></script>
 	
 	<!--
-	<script src="{$ThemeDir}/javascript/foundation/foundation.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.alerts.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.clearing.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.cookie.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.dropdown.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.forms.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.joyride.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.magellan.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.orbit.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.reveal.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.section.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.tooltips.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.topbar.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.interchange.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.placeholder.js"></script>
-	<script src="{$ThemeDir}/javascript/foundation/foundation.abide.js"></script>
+	Requirements::combine_files(
+		'foundation.combined.js',
+		array(
+			'themes/foundation/javascript/foundation/foundation.js',
+			'themes/foundation/javascript/foundation/foundation.alerts.js',
+			'themes/foundation/javascript/foundation/foundation.clearing.js',
+			'themes/foundation/javascript/foundation/foundation.cookie.js',
+			'themes/foundation/javascript/foundation/foundation.dropdown.js',
+			'themes/foundation/javascript/foundation/foundation.forms.js',
+			'themes/foundation/javascript/foundation/foundation.joyride.js',
+			'themes/foundation/javascript/foundation/foundation.magellan.js',
+			'themes/foundation/javascript/foundation/foundation.orbit.js',
+			'themes/foundation/javascript/foundation/foundation.reveal.js',
+			'themes/foundation/javascript/foundation/foundation.section.js',
+			'themes/foundation/javascript/foundation/foundation.tooltips.js',
+			'themes/foundation/javascript/foundation/foundation.topbar.js',
+			'themes/foundation/javascript/foundation/foundation.interchange.js',
+			'themes/foundation/javascript/foundation/foundation.placeholder.js',
+			'themes/foundation/javascript/foundation/foundation.abide.js'
+		)
+	);
 	-->
 	
 	<%-- App --%>

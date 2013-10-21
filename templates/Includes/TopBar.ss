@@ -12,28 +12,28 @@
 			<li class="<% if LinkingMode == current %>active<% end_if %><% if LinkingMode == section %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
 			<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
 			<% if Children %>
-			<ul class="dropdown">
-				<li><label>$MenuTitle.XML</label></li>
-				<% loop Children %>
-				<li class="<% if LinkingMode == current %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
-					<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
-					<% if Children %>
-					<ul class="dropdown">
-						<% loop Children %>
-						<li><a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a></li>
-						<% end_loop %>
-					</ul>
-					<% end_if %>
-				</li>
-				<% end_loop %>
-				<li><a href="$Link">See all &rarr;</a></li>
-			</ul>
+				<ul class="dropdown">
+					<li><label>$MenuTitle.XML</label></li>
+					<% loop Children %>
+					<li class="<% if LinkingMode == current %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
+						<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
+						<% if Children %>
+						<ul class="dropdown">
+							<% loop Children %>
+							<li><a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a></li>
+							<% end_loop %>
+						</ul>
+						<% end_if %>
+					</li>
+					<% end_loop %>
+					<li><a href="$Link">See all &rarr;</a></li>
+				</ul>
 			<% end_if %>
-		</li>
-		<% if Last %><% else %>
-		<li class="divider"></li>
-		<% end_if %>
-		<% end_loop %>
+			</li>
+			<% if Last %><% else %>
+			<li class="divider"></li>
+			<% end_if %>
+			<% end_loop %>
 		</ul>
 		<ul class="right">
 			<% if $CurrentMember %>

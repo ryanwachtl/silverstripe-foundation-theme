@@ -22,7 +22,7 @@ Installing with Composer
 
 `"require": { "rywa/silverstripe-foundation": "1.0.*" }`
 
-If you install with composer and would like to edit or build off of the theme you should copy the directory and rename. Otherwise, running `composer update` will overwrite your files. For the next major release (Foundation 5) I'm working on refactoring the theme/module to better support making Foundation available within your project and updatable with composer.
+If you install with composer and would like to edit or build off of the theme you should copy the directory and rename or override templates in your mysite dir. Otherwise, running `composer update` will overwrite your files.
 
 Requirements
 =================================
