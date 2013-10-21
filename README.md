@@ -3,7 +3,7 @@ SilverStripe Foundation Theme
 
 The fastest way to get up and running with the Foundation framework in your SilverStripe project!
 
-A prototyping theme based on ZURB Foundation, current version 4.3.1
+A prototyping theme based on ZURB Foundation 4.3.2
 
 ![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
@@ -20,7 +20,7 @@ Installing with Git
 Installing with Composer
 =================================
 
-`"require": { "rywa/silverstripe-foundation": "4.3.*" }`
+`"require": { "rywa/silverstripe-foundation": "1.0.*" }`
 
 If you install with composer and would like to edit or build off of the theme you should copy the directory and rename. Otherwise, running `composer update` will overwrite your files. For the next major release (Foundation 5) I'm working on refactoring the theme/module to better support making Foundation available within your project and updatable with composer.
 

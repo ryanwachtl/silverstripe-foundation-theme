@@ -13,10 +13,13 @@
 	"require": 
 	{
 		"composer/installers": "*",
-        "silverstripe/framework": ">=3.0"
+        "silverstripe/framework": "~3.0"
 	},
 	"extra": {
-		"installer-name": "foundation"
+		"installer-name": "foundation",
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
 	},
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
