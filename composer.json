@@ -10,13 +10,16 @@
 			"homepage": "http://ryanwachtl.com"
 		}
 	],
-	"require": 
+	"require":
 	{
 		"composer/installers": "*",
-        "silverstripe/framework": ">=3.0"
+		"silverstripe/framework": "~3.0"
 	},
 	"extra": {
-		"installer-name": "foundation"
+		"installer-name": "foundation",
+		"branch-alias": {
+			"dev-master": "0.9.0-dev"
+		}
 	},
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
