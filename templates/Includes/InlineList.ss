@@ -1,6 +1,6 @@
 <ul class="inline-list <% if Float %>$Float<% end_if %>">
 	<% loop Me %>
-		<% if Links %>
+		<% if Link %>
 		<li class="<% if LinkingMode == current %>active<% end_if %>">
 			<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
 		</li>
