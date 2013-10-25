@@ -1,15 +1,16 @@
-<ul class="nav-bar <% if $Vertical %>vertical<% end_if %>">
-<% loop Me %>
-	<li class="<% if LinkingMode == current %>active<% end_if %><% if Children %> has-flyout<% end_if %>">
-	<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
+<div class="section-container horizontal-nav" data-section="horizontal-nav" data-options="one_up: false;">
+	<% loop Me %>
+	<section>
+		<p class="title <% if LinkingMode == current %>active<% end_if %>" data-section-title><a href="$Link">$MenuTitle</a></p>
 		<% if Children %>
-		<a href="#" class="flyout-toggle"><span> </span></a>
-		<ul class="flyout">
-			<% loop Children %>
-			<li><a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a></li>
-			<% end_loop %>
-		</ul>
+		<div class="content" data-section-content>
+			<ul class="side-nav">
+				<% loop Children %>
+				<li><a href="$Link">$MenuTitle</a></li>
+				<% end_loop %>
+			</ul>
+		</div>
 		<% end_if %>
-	</li>
-<% end_loop %>
-</ul>
+	</section>
+	<% end_loop %>
+</div>
