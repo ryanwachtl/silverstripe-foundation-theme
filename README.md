@@ -5,9 +5,9 @@ The fastest way to get up and running with the Foundation framework in your Silv
 
 **A prototyping theme based on ZURB Foundation 4.3.2**
 
-![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
+![SilverStripe Foundation Theme Previews](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
 
-Theme Demo
+Live Theme Demo
 =================================
 
 [http://silverstripe-foundation.rywa.us/](http://silverstripe-foundation.rywa.us/)
@@ -23,14 +23,14 @@ You can use the theme in two distinct ways.
 
 2. Use the theme as a starting point for your own custom theme. In this case, you're best off **installing with git and committing changes to your git repo**.
 
-Installing with Composer
+Composer Installation
 =================================
 
 `"require": { "rywa/silverstripe-foundation": "1.0.*" }`
 
 Add `themes/foundation` to your `.gitignore`
 
-Installing with Git
+Git Installation
 =================================
 
 `cd themes`
@@ -39,7 +39,7 @@ Installing with Git
 
 `rm -rf .git` (optional, to remove existing git repo)
 
-Enable the Theme
+Enable Theme
 =================================
 
 ```
@@ -57,11 +57,15 @@ Requirements
 Recommended
 =================================
 
-While not required, you'll get the best experience with this theme by installing the `foundationforms` module below.
+While not required, you'll get the best experience with this theme by installing the `foundationforms` module below. The Foundation Forms module is also compatible with, and makes a great companion to, the [User Forms module](https://github.com/silverstripe/silverstripe-userforms).
 
 [SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
 
+The Gist linked below is a custom Editor Config that I use. It is a single line of buttons with Foundation specific styles.
+
 [SilverStripe Foundation HtmlEditorConfig Gist](https://gist.github.com/ryanwachtl/6251297)
+
+![SilverStripe Foundation Custom HtmlEditorConfig](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/minimal-htmleditor-config.png)
 
 About Foundation
 =================================
