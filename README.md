@@ -3,7 +3,7 @@ SilverStripe Foundation Theme
 
 The fastest way to get up and running with the Foundation framework in your SilverStripe project!
 
-**A prototyping theme based on ZURB Foundation 4.3.2**
+**A prototyping theme based on the `sass-standalone` branch of ZURB Foundation 4.3.2**
 
 ![SilverStripe Foundation Theme Previews](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
 
