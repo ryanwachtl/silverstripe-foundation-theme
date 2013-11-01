@@ -7,6 +7,8 @@ The fastest way to get up and running with the Foundation framework in your Silv
 
 ![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
+![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
+
 Theme Demo
 =================================
 
