@@ -3,31 +3,54 @@ SilverStripe Foundation Theme
 
 The fastest way to get up and running with the Foundation framework in your SilverStripe project!
 
-A prototyping theme based on ZURB Foundation 4.3.2
+**A prototyping theme based on ZURB Foundation 4.3.2**
 
 ![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
 Theme Demo
 =================================
 
-http://silverstripe-foundation.rywa.us/
+[http://silverstripe-foundation.rywa.us/](http://silverstripe-foundation.rywa.us/)
 
-Installing with Git
+Working with the Theme
 =================================
 
-`git clone git://github.com/ryanwachtl/silverstripe-foundation.git foundation`
+You can use the theme in two distinct ways.
+
+1. **Manage the theme using Composer** and update using `composer update`. This method should be used if you are using the theme for prototyping and do not need to edit the theme files directly.
+
+2. Use the theme as a starting point for your own custom theme. In this case, you're best off **installing with git and committing changes to your git repo**.
 
 Installing with Composer
 =================================
 
 `"require": { "rywa/silverstripe-foundation": "1.0.*" }`
 
-If you install with composer and would like to edit or build off of the theme you should copy the directory and rename or override templates in your mysite dir. Otherwise, running `composer update` will overwrite your files.
+Add `themes/foundation` to your `.gitignore`
+
+Installing with Git
+=================================
+
+`cd themes`
+
+`git clone git://github.com/ryanwachtl/silverstripe-foundation.git foundation`
+
+`rm -rf .git` (optional, to remove existing git repo)
+
+Enable the Theme
+=================================
+
+```
+SSViewer:
+  theme: 'foundation'
+```
+
+in `/mysite/_config/config.yml`
 
 Requirements
 =================================
 
-[SilverStripe](https://github.com/silverstripe/silverstripe-framework) 3.0 or 3.1
+[SilverStripe](https://github.com/silverstripe/silverstripe-framework) 3.1.x
 
 Recommended
 =================================
