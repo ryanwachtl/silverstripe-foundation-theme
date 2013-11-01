@@ -5,14 +5,14 @@ The fastest way to get up and running with the Foundation framework in your Silv
 
 **A prototyping theme based on ZURB Foundation 4.3.2**
 
-![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
-
 ![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
 
 Theme Demo
 =================================
 
 [http://silverstripe-foundation.rywa.us/](http://silverstripe-foundation.rywa.us/)
+
+![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
 Working with the Theme
 =================================
@@ -56,6 +56,8 @@ Requirements
 
 Recommended
 =================================
+
+While not required, you'll get the best experience with this theme by installing the `foundationforms` module below.
 
 [SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
 
