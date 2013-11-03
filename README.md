@@ -10,7 +10,7 @@ The fastest way to get up and running with the Foundation framework in your Silv
 Live Theme Demo
 =================================
 
-[http://silverstripe-foundation.rywa.us/](http://silverstripe-foundation.rywa.us/)
+[http://silverstripe-foundation.com](http://silverstripe-foundation.com)
 
 ![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
