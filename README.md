@@ -45,10 +45,10 @@ SSViewer:
 
 in `/mysite/_config/config.yml`
 
-Compiling and Updating Foundation
+Using Compass and Bower
 =================================
 
-Then when you're working on your project, just run the following command (from within your `themes/foundation` folder):
+If you're editing the Sass files, just run the following command:
 
 ```bash
 compass watch
@@ -64,7 +64,7 @@ Requirements
 =================================
 [SilverStripe](https://github.com/silverstripe/silverstripe-framework) 3.1.x
 
-Optional (for working with Foundation 5)
+Optional
 =================================
 - Ruby 1.9+
 - [Node.js](http://nodejs.org)
@@ -82,9 +82,7 @@ The Gist linked below is a custom Editor Config that I use. It is a single line 
 
 [SilverStripe Foundation HtmlEditorConfig Gist](https://gist.github.com/ryanwachtl/6251297)
 
-![SilverStripe Foundation Custom HtmlEditorConfig](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/minimal-htmleditor-config.png)
-
-About Foundation
+About Foundation 5
 =================================
 
 Foundation is the most advanced responsive front-end framework in the world. With Foundation you can quickly prototype and build sites or apps that work on any kind of device, with tons of included layout constructs (like a full responsive grid), elements and best practices.
