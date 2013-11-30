@@ -1,18 +1,14 @@
 SilverStripe Foundation Theme
 =================================
 
-The fastest way to get up and running with the Foundation framework in your SilverStripe project!
+Foundation + Compass - Rolled up into a tidy little SilverStripe theme.
 
-**A prototyping theme based on the `sass-standalone` branch of ZURB Foundation 4.3.2**
-
-![SilverStripe Foundation Theme Previews](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/previews-1.png)
+Based on the [Foundation Compass Template](https://github.com/zurb/foundation-compass-template).
 
 Live Theme Demo
 =================================
 
 [http://silverstripe-foundation.com](http://silverstripe-foundation.com)
-
-![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation/master/images/demos/screenshot.png)
 
 Working with the Theme
 =================================
@@ -26,7 +22,7 @@ You can use the theme in two distinct ways.
 Composer Installation
 =================================
 
-`"require": { "rywa/silverstripe-foundation": "1.0.*" }`
+`"require": { "rywa/silverstripe-foundation": "1.1.*" }`
 
 Add `themes/foundation` to your `.gitignore`
 
@@ -35,7 +31,7 @@ Git Installation
 
 `cd themes`
 
-`git clone git://github.com/ryanwachtl/silverstripe-foundation.git foundation`
+`git clone git://github.com/ryanwachtl/silverstripe-foundation-theme.git foundation`
 
 `rm -rf .git` (optional, to remove existing git repo)
 
@@ -49,10 +45,31 @@ SSViewer:
 
 in `/mysite/_config/config.yml`
 
-Requirements
+Compiling and Updating Foundation
 =================================
 
+Then when you're working on your project, just run the following command (from within your `themes/foundation` folder):
+
+```bash
+compass watch
+```
+
+If you'd like to upgrade to a newer version of Foundation down the road just run:
+
+```bash
+bower update
+```
+
+Requirements
+=================================
 [SilverStripe](https://github.com/silverstripe/silverstripe-framework) 3.1.x
+
+Optional (for working with Foundation 5)
+=================================
+- Ruby 1.9+
+- [Node.js](http://nodejs.org)
+- [compass](http://compass-style.org/): `gem install compass`
+- [bower](http://bower.io): `npm install bower -g`
 
 Recommended
 =================================
@@ -74,12 +91,3 @@ Foundation is the most advanced responsive front-end framework in the world. Wit
 
 - [Homepage](http://foundation.zurb.com)
 - [Documentation](http://foundation.zurb.com/docs)
-
-MIT Open Source License
-=======================
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

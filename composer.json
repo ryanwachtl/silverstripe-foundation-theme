@@ -1,13 +1,13 @@
 {
-	"name": "rywa/silverstripe-foundation",
+	"name": "rywa/silverstripe-foundation-theme",
 	"type": "silverstripe-theme",
 	"description": "SilverStripe prototyping theme based on Zurb Foundation",
-	"keywords": ["silverstripe", "foundation", "zurbfoundation", "prototyping", "theme"],
+	"keywords": ["silverstripe", "foundation", "foundation 5", "responsive", "prototyping", "theme"],
 	"license": "MIT Open Source License",
 	"authors": [
 		{
 			"name": "Ryan Wachtl",
-			"homepage": "http://ryanwachtl.com"
+			"homepage": "http://ryan.wachtl.us"
 		}
 	],
 	"require": 
@@ -18,10 +18,13 @@
 	"extra": {
 		"installer-name": "foundation",
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"dev-master": "1.1.x-dev"
 		}
 	},
 	"support": {
-		"issues": "https://github.com/ryanwachtl/silverstripe-foundation/issues"
+		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-theme/issues"
+	},
+	"replace": {
+		"rywa/silverstripe-foundation": "self.version"
 	}
 }

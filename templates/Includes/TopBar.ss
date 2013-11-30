@@ -1,17 +1,19 @@
-<nav class="top-bar">
+<nav class="top-bar" data-topbar>
 	<ul class="title-area">
-		<%-- Title Area --%>
 		<li class="name">
 			<h1><a href="/">$SiteConfig.Title</a></h1>
 		</li>
-		<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+		<li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
 	</ul>
+
 	<section class="top-bar-section">
+
+		<!-- Left Nav Section -->
 		<ul class="left">
 			<% loop Menu(1) %>
 			<li class="<% if LinkingMode == current %>active<% end_if %><% if LinkingMode == section %>active<% end_if %><% if Children %> has-dropdown<% end_if %>">
-			<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
-			<% if Children %>
+				<a href="$Link" title="Go to the $Title.XML page">$MenuTitle.XML</a>
+				<% if Children %>
 				<ul class="dropdown">
 					<li><label>$MenuTitle.XML</label></li>
 					<% loop Children %>
@@ -28,20 +30,22 @@
 					<% end_loop %>
 					<li><a href="$Link">See all &rarr;</a></li>
 				</ul>
-			<% end_if %>
+				<% end_if %>
 			</li>
 			<% if Last %><% else %>
 			<li class="divider"></li>
 			<% end_if %>
 			<% end_loop %>
 		</ul>
+
+		<!-- Right Nav Section -->
 		<ul class="right">
 			<% if $CurrentMember %>
 			<li><a href="Security/logout">Logout</a></li>
 			<% else %>
-			<li><a href="Security/login?BackURL=%2Fadmin">Login</a></li>
+			<li><a href="Security/login?BackURL=%2Fadmin" data-reveal-id="login-form-modal">Login</a></li>
 			<% end_if %>
 		</ul>
+
 	</section>
 </nav>
-

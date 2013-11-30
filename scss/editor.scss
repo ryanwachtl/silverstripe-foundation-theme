@@ -1,24 +1,6 @@
-// Make sure the charset is set appropriately
-@charset "UTF-8";
+@import "settings";
+@import "foundation";
 
-.typography { padding: 20px; }
-
-@import
-	"foundation/variables",
-	"foundation/components/global",
-	"foundation/components/visibility",
-	"foundation/components/block-grid",
-	"foundation/components/type",
-	"foundation/components/buttons",
-	"foundation/components/flex-video",
-	"foundation/components/section",
-	"foundation/components/alert-boxes",
-	"foundation/components/keystrokes",
-	"foundation/components/labels",
-	"foundation/components/inline-lists",
-	"foundation/components/panels",
-	"foundation/components/side-nav",
-	"foundation/components/sub-nav",
-	"foundation/components/tables",
-	"foundation/components/thumbs",
-	"foundation/components/tooltips";
+.typography {
+    padding: 18px 20px;
+}
