@@ -10,6 +10,8 @@ Live Theme Demo
 
 [http://silverstripe-foundation.com](http://silverstripe-foundation.com)
 
+![SilverStripe Foundation Theme](https://raw.github.com/ryanwachtl/silverstripe-foundation-theme/master/images/demo/screenshot.png)
+
 Working with the Theme
 =================================
 
@@ -32,8 +34,6 @@ Git Installation
 `cd themes`
 
 `git clone git://github.com/ryanwachtl/silverstripe-foundation-theme.git foundation`
-
-`rm -rf .git` (optional, to remove existing git repo)
 
 Enable Theme
 =================================
