@@ -1,3 +1,3 @@
-<nav class="breadcrumbs">
+<ul class="breadcrumbs">
 	$Breadcrumbs
-</nav>
+</ul>

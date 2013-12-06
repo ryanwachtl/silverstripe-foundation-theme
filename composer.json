@@ -1,8 +1,8 @@
 {
 	"name": "rywa/silverstripe-foundation-theme",
 	"type": "silverstripe-theme",
-	"description": "SilverStripe prototyping theme based on Zurb Foundation",
-	"keywords": ["silverstripe", "foundation", "foundation 5", "responsive", "prototyping", "theme"],
+	"description": "Foundation 5 Prototyping Theme for SilverStripe",
+	"keywords": ["foundation", "silverstripe", "responsive", "prototyping", "theme"],
 	"license": "MIT Open Source License",
 	"authors": [
 		{

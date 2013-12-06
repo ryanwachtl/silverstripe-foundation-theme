@@ -1,1 +1,1 @@
-SIDEBAR
+<%--this template is not used in the Foundation theme--%>
