@@ -1,7 +1,7 @@
 SilverStripe Foundation Theme
 =================================
 
-Foundation + Compass - Rolled up into a tidy little SilverStripe theme.
+Foundation + Compass, packaged up into a tidy SilverStripe theme for prototyping.
 
 Based on the [Foundation Compass Template](https://github.com/zurb/foundation-compass-template).
 
