@@ -9,18 +9,18 @@
 		<%-- Left Nav Section --%>
 		<ul class="left">
 			<% loop Menu(1) %>
-			<li class="<% if $LinkingMode == current || $LinkingMode == section %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
+			<li class="<% if $LinkingMode == "current" || $LinkingMode == "section" %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
 				<a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a>
 				<% if $Children %>
 				<ul class="dropdown">
 					<li><label>$MenuTitle</label></li>
 					<% loop $Children %>
-					<li class="<% if $LinkingMode == current || $LinkingMode == section %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
+					<li class="<% if $LinkingMode == "current" || $LinkingMode == "section" %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
 						<a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a>
 						<% if $Children %>
 						<ul class="dropdown">
 							<% loop $Children %>
-							<li class="<% if $LinkingMode == current || $LinkingMode == section %>active<% end_if %>"><a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a></li>
+							<li class="<% if $LinkingMode == "current" || $LinkingMode == "section" %>active<% end_if %>"><a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a></li>
 							<% end_loop %>
 						</ul>
 						<% end_if %>
@@ -37,7 +37,7 @@
 		<ul class="right">
 			<% if $CurrentMember %>
 			<li class="has-dropdown">
-				<a href="admin/myprofile">Hi $CurrentMember.Name</a>
+				<a href="admin/myprofile">Hi $CurrentMember.FirstName</a>
 				<ul class="dropdown">
 					<li><a href="admin/">Admin</a></li>
 					<li><a href="admin/myprofile">My Profile</a></li>

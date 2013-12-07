@@ -1,5 +1,13 @@
 <ul class="side-nav">
-	<% loop Menu(1) %>
-	<li class="<% if $LinkingMode == current || $LinkingMode == section %>active<% end_if %>"><a href="$Link">$MenuTitle</a></li>
-	<% end_loop %>
+	<% if $Parent.Parent %>
+		<% with $Parent.Parent  %>
+			<% include SideNavMenuItems %>
+		<% end_with %>
+	<% else_if $Parent %>
+		<% with $Parent %>
+			<% include SideNavMenuItems %>
+		<% end_with %>
+	<% else %>
+		<% include SideNavMenuItems %>
+	<% end_if %>
 </ul>

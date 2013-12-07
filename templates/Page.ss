@@ -21,8 +21,11 @@
 	<script src="$ThemeDir/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body class="$ClassName.ATT">
+
 	<header class="header" role="banner">
-		<% include TopBar %>
+		<div class="fixed contain-to-grid">
+			<% include TopBar %>
+		</div>
 	</header>
 
 	<div class="main typography" role="main">

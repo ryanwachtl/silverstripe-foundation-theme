@@ -1,1 +1,1 @@
-<%--this template is not used in the Foundation theme--%>
+<%--SideBar.ss is not used in the Foundation theme--%>
