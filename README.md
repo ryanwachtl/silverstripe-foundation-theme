@@ -76,7 +76,11 @@ Recommended
 
 While not required, you'll get the best experience with this theme by installing the `foundationforms` module below. The Foundation Forms module is also compatible with, and makes a great companion to, the [User Forms module](https://github.com/silverstripe/silverstripe-userforms).
 
-[SilverStripe Zurb Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
+[SilverStripe ZURB Foundation Forms Module](https://github.com/ryanwachtl/silverstripe-foundation-forms)
+
+Use .ss templates with Interchange
+
+[SilverStripe ZURB Foundation Interchange Module](https://github.com/ryanwachtl/silverstripe-foundation-interchange)
 
 The Gist linked below is a custom Editor Config that I use. It is a single line of buttons with Foundation specific styles.
 
