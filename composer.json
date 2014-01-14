@@ -2,7 +2,7 @@
 	"name": "rywa/silverstripe-foundation",
 	"type": "silverstripe-theme",
 	"description": "Foundation 5 Prototyping Theme for SilverStripe",
-	"keywords": ["foundation", "silverstripe", "responsive", "prototyping", "theme"],
+	"keywords": ["foundation theme", "silverstripe foundation", "responsive", "prototyping", "theme"],
 	"license": "MIT Open Source License",
 	"authors": [
 		{
