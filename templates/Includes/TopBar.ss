@@ -1,7 +1,7 @@
 <nav class="top-bar" role="navigation" data-topbar>
 	<ul class="title-area">
 		<li class="name">
-			<h1><a href="/home">$SiteConfig.Title</a></h1>
+			<h1><a href="$BaseHref">$SiteConfig.Title</a></h1>
 		</li>
 		<li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
 	</ul>
