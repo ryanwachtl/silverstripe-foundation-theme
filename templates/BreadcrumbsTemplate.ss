@@ -1,5 +1,5 @@
 <% if $Pages %>
-	<% if not $InSection(home) %><li><a href="/home">Home</a></li><% end_if %>
+	<% if not $InSection(home) %><li><a href="{$baseUrl}">Home</a></li><% end_if %>
 	<% loop $Pages %>
 		<% if $Last %>
 			<li class="current" title="Go to the $Title.ATT">$MenuTitle</li>
