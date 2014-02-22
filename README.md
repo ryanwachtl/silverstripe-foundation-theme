@@ -24,7 +24,7 @@ You can use the theme in two distinct ways.
 Composer Installation
 =================================
 
-`"require": { "rywa/silverstripe-foundation": "1.2.*" }`
+`"require": { "rywa/silverstripe-foundation": "1.1.*" }`
 
 Add `themes/foundation` to your `.gitignore`
 
