@@ -58,7 +58,7 @@
 	</div>
 
 	<%--See [Requirements](http://doc.silverstripe.org/framework/en/reference/requirements) for loading from controller--%>
-	<script src="$ThemeDir/bower_components/jquery/jquery.js"></script>
+	<script src="$ThemeDir/bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="$ThemeDir/bower_components/foundation/js/foundation.min.js"></script>
 	<script src="$ThemeDir/javascript/app.js"></script>
 </body>
