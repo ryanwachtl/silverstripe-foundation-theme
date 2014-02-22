@@ -1,7 +1,7 @@
 SilverStripe Foundation Theme
 =================================
 
-Foundation + Compass, packaged up into a tidy SilverStripe theme for prototyping.
+Foundation 5 + Compass, packaged up into a clean SilverStripe theme suitable for rapid prototyping or as a solid base for your own responsive theme.
 
 Based on the [Foundation Compass Template](https://github.com/zurb/foundation-compass-template).
 
@@ -24,7 +24,7 @@ You can use the theme in two distinct ways.
 Composer Installation
 =================================
 
-`"require": { "rywa/silverstripe-foundation": "1.1.*" }`
+`"require": { "rywa/silverstripe-foundation": "1.2.*" }`
 
 Add `themes/foundation` to your `.gitignore`
 
