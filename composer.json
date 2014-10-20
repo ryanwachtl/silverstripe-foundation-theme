@@ -9,13 +9,13 @@
 			"name": "Ryan Wachtl",
 			"role": "Developer",
 			"email": "ryan@beyondusability.pro",
-			"homepage": "beyondusability.pro"
+			"homepage": "http://beyondusability.pro"
 		}
 	],
 	"require": 
 	{
 		"composer/installers": "*",
-        "silverstripe/framework": "~3.1"
+		"silverstripe/framework": "~3.1"
 	},
 	"extra": {
 		"installer-name": "foundation",
