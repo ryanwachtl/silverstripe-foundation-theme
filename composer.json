@@ -7,7 +7,9 @@
 	"authors": [
 		{
 			"name": "Ryan Wachtl",
-			"homepage": "http://ryan.wachtl.us"
+			"role": "Developer",
+			"email": "ryan@beyondusability.pro",
+			"homepage": "beyondusability.pro"
 		}
 	],
 	"require": 
