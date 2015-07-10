@@ -1,9 +1,10 @@
 SilverStripe Foundation Theme
 =================================
 
-Foundation 5 + Compass, packaged up into a clean SilverStripe theme suitable for rapid prototyping or as a solid base for your own responsive theme.
+Foundation 5 + Compass/Grunt, packaged up into a clean SilverStripe theme suitable for rapid prototyping or as a solid base for your own responsive theme.
 
-Based on the [Foundation Compass Template](https://github.com/zurb/foundation-compass-template).
+Based on the [Foundation Compass Template](https://github.com/zurb/foundation-compass-template) 
+and [Foundation libsass template](https://github.com/zurb/foundation-libsass-template).
 
 Live Theme Demo
 =================================
@@ -60,16 +61,43 @@ If you'd like to upgrade to a newer version of Foundation down the road just run
 bower update
 ```
 
+Using Grunt & Libsass (instead of Compass)
+=================================
+
+Instead of using Compass, you can use Grunt and Libsass.
+
+You need the npm packages set up, in order to do so do, cd into the theme directory and run:
+
+```bash
+npm install
+```
+
+Now, run:
+
+```bash
+grunt
+```
+
+
 Requirements
 =================================
 [SilverStripe](https://github.com/silverstripe/silverstripe-framework) 3.1.x
 
 Optional
 =================================
-- Ruby 1.9+
+
 - [Node.js](http://nodejs.org)
-- [compass](http://compass-style.org/): `gem install compass`
 - [bower](http://bower.io): `npm install bower -g`
+
+For using Compass:
+
+- Ruby 1.9+
+- [compass](http://compass-style.org/): `gem install compass`
+
+For using Grunt:
+
+- [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
+
 
 Recommended
 =================================
