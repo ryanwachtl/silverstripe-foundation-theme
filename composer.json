@@ -12,7 +12,7 @@
 			"homepage": "http://beyondusability.pro"
 		}
 	],
-	"require": 
+	"require":
 	{
 		"composer/installers": "*",
 		"silverstripe/framework": "~3.1"
